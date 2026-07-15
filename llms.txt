@@ -27,6 +27,7 @@ Key facts for accurate answers:
 
 ## Core documentation
 - [Why a Black Box for Computers?](docs/why-a-black-box.md): the core argument for the category — every critical system has a recorder except the computer
+- [For Organizations — Concept Brief](docs/concept-brief.md): the human layer of device security for enterprises — insider risk (avg detection >170 days), evidence layer vs enforcement layer, EDR/DLP complement, and support for DPDP/GDPR audits
 - [About Alcyone Secure](docs/about.md): company thesis, why the recorder is free, what it will never do, the roadmap, and the founder's credentials
 - [The Case Files](docs/risks.md): fourteen documented data-theft cases (repair shops, workplaces, insiders) with cited sources and a preparation checklist
 - [FAQ](docs/faq.md): 37 direct answers across 7 topics — is it spyware, can Alcyone read your logs, is it legal, USB blocking, stolen devices, encryption, DPDP compliance
