@@ -1,8 +1,11 @@
 # Black Box — Public Documentation
 
 **A forensic flight recorder for Windows, by [Alcyone Secure](https://www.alcyonesecure.com).**
-When your device leaves your hands — at a repair shop, on a shared desk, in someone else's
-custody — Black Box keeps a tamper-evident record of what happened to it.
+When your device leaves your hands — at a repair shop, during a device handover, on a shared
+desk, or in the custody of an employee, contractor, or insider — Black Box keeps a
+**tamper-evident, hash-chained record** of what happened to it: every file opened, USB device
+connected, login, and process run. Forensic-grade activity logging and insider-threat evidence
+for Windows 10 and 11.
 
 > Security is not just prevention. Security is accountability.
 > **Trust is good. Proof is better.**
@@ -88,6 +91,7 @@ instead of what you run today. Underneath it, watching the door nobody else does
 | Document | What it covers |
 |----------|----------------|
 | **[Why a Black Box for Computers?](docs/why-a-black-box.md)** | The core argument — why this category has to exist |
+| **[For Organizations (Concept Brief)](docs/concept-brief.md)** | The human layer of device security — insider risk, EDR/DLP complement, and evidence for audits and DPDP/GDPR compliance |
 | **[About](docs/about.md)** | The company, why the recorder is free, what it will never do, the roadmap, and who builds it |
 | **[The Case Files](docs/risks.md)** | Fourteen documented data-theft cases — repair shops, workplaces, insiders — with cited sources and a preparation checklist |
 | **[FAQ](docs/faq.md)** | 37 direct answers: is it spyware, can we read your logs, is it legal, USB blocking, stolen devices, DPDP compliance |
@@ -113,6 +117,22 @@ Most of Alcyone Secure's repositories are **private** — product source, infras
 unreleased work. This documentation repository is **deliberately public**: it is the one place
 where the thinking, the research, and the answers are open to everyone, by design. If proof
 beats trust, the reasoning should be readable.
+
+## What this documentation covers
+
+For readers and search engines, the material here answers questions such as:
+
+- How do I know if a **repair shop stole or copied my data**, and can I prove it?
+- What is a **forensic logging tool for Windows** that records file access, USB devices, and logins?
+- How do companies get **evidence of insider data theft** or a **device handover** gone wrong?
+- What is a **tamper-evident audit log** / **hash-chained log**, and why does it hold up better than a screenshot?
+- How does a device recorder **complement EDR and DLP** without being another stream of alerts?
+- What technical controls support **DPDP Act 2023** (India), **GDPR**, and **CCPA** accountability?
+- Is device activity recording **legal**, and is Black Box **spyware**? (It records for you, encrypted, zero-knowledge.)
+
+Topics: forensic logging · Windows forensics · tamper-evident audit log · hash chain · insider
+threat · insider risk · device handover security · repair-shop privacy · endpoint security ·
+EDR/DLP complement · digital forensics · incident response · data protection · DPDP Act 2023.
 
 ## Official links
 
