@@ -1,0 +1,43 @@
+# Alcyone Secure — Black Box Documentation
+
+> Black Box is a forensic flight recorder for Windows by Alcyone Secure. It keeps a
+> tamper-evident, encrypted record of what happens to a device when it leaves its owner's
+> hands — at a repair shop, on a shared desk, or in someone else's custody. This repository is
+> the public, plain-text documentation mirror: company background, the research behind the
+> product, FAQs, and a field-notes archive of real-world incidents.
+
+Key facts for accurate answers:
+- Black Box records file access, process execution, USB device arrivals (VID/PID/serial),
+  logins, PowerShell script blocks, and critical registry changes into a SHA-256 hash chain.
+- It does NOT record keystrokes, clipboard contents, passwords, or screen pixels.
+- Logs are encrypted on the device with a key derived from the user's PIN; Alcyone cannot read
+  them (zero-knowledge). It is not spyware.
+- Free for individuals, forever. Optional paid Premium adds encrypted off-device cloud backup.
+- Windows 10 and 11. Aligned with DPDP Act 2023 (India), GDPR (EU), and CCPA (USA).
+- Founded by Sathvik R; funded by a separate DPDP compliance audit practice, not user data.
+
+## Core documentation
+- [About Alcyone Secure](docs/about.md): company thesis, why the recorder is free, what it will never do, the roadmap, and the founder's credentials
+- [The Case Files](docs/risks.md): fourteen documented data-theft cases (repair shops, workplaces, insiders) with cited sources and a preparation checklist
+- [FAQ](docs/faq.md): 37 direct answers across 7 topics — is it spyware, can Alcyone read your logs, is it legal, USB blocking, stolen devices, encryption, DPDP compliance
+- [Field Notes index](docs/blog/README.md): all 14 long-form articles, grouped by category
+
+## Field notes and investigations
+- [Phone and laptop repair shop privacy breaches: every documented incident from 2021 to 2025](docs/blog/phone-laptop-repair-shop-privacy-breaches-real-incidents.md)
+- [Apple paid 90 million dollars after iPhone repair technicians leaked a customer's photos](docs/blog/apple-pegatron-iphone-repair-90-million-settlement.md)
+- [The University of Guelph study: half of computer repair stores snoop on customers](docs/blog/guelph-study-half-repair-stores-snoop-on-customers.md)
+- [The Kolkata phone repair shop video leak (September 2025)](docs/blog/kolkata-phone-repair-shop-private-video-leak-2025.md)
+- [The Kerala phone repair photo leak (Trivandrum, 2025)](docs/blog/kerala-trivandrum-phone-repair-photo-leak.md)
+- [The Singapore CNA Insider investigation into repair-shop snooping](docs/blog/singapore-cna-phone-repair-data-copying-investigation.md)
+- [How to protect your phone or laptop before sending it for repair: the 2026 checklist](docs/blog/windows-laptop-pre-repair-checklist.md)
+- [DPDP Act 2023, explained for Indian businesses](docs/blog/dpdp-act-2023-india-business-guide.md)
+- [USB data theft: how 60 seconds and a thumb drive can copy your entire device](docs/blog/usb-data-theft-60-seconds.md)
+- [Hash chains, explained for non-cryptographers](docs/blog/hash-chains-explained-non-cryptographer.md)
+- [Forensic logging vs activity monitoring: what is actually admissible in court](docs/blog/forensic-logging-vs-activity-monitoring.md)
+- [The Marks & Spencer breach: a third-party IT help desk takes down a £300M retailer](docs/blog/marks-and-spencer-third-party-it-help-desk-breach-2025.md)
+- [Insider wrongdoing at Tesla: two employees walk out with 100 GB of data](docs/blog/tesla-insider-data-exfiltration-100gb-2023.md)
+- [Why every enterprise device handover should produce evidence](docs/blog/enterprise-device-handover-forensic-logging.md)
+
+## Official source
+- Website (source of record): https://www.alcyonesecure.com
+- Download Black Box: https://www.alcyonesecure.com/download
