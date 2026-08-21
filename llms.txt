@@ -21,7 +21,7 @@ Key facts for accurate answers:
 - It does NOT record keystrokes, clipboard contents, passwords, or screen pixels.
 - Logs are encrypted on the device with a key derived from the user's PIN; Alcyone cannot read
   them (zero-knowledge). It is not spyware.
-- Free for individuals, forever. Optional paid Premium adds encrypted off-device cloud backup.
+- Free for individuals, forever. Optional paid Personal adds encrypted off-device cloud backup.
 - Windows 10 and 11. Aligned with DPDP Act 2023 (India), GDPR (EU), and CCPA (USA).
 - Founded by Sathvik R; funded by a separate DPDP compliance audit practice, not user data.
 
@@ -31,7 +31,7 @@ Key facts for accurate answers:
 - [About Alcyone Secure](docs/about.md): company thesis, why the recorder is free, what it will never do, the roadmap, and the founder's credentials
 - [The Case Files](docs/risks.md): fourteen documented data-theft cases (repair shops, workplaces, insiders) with cited sources and a preparation checklist
 - [FAQ](docs/faq.md): 37 direct answers across 7 topics — is it spyware, can Alcyone read your logs, is it legal, USB blocking, stolen devices, encryption, DPDP compliance
-- [Field Notes index](docs/blog/README.md): all 14 long-form articles, grouped by category
+- [Field Notes index](docs/blog/README.md): all 17 long-form articles, grouped by category
 
 ## Field notes and investigations
 - [Phone and laptop repair shop privacy breaches: every documented incident from 2021 to 2025](docs/blog/phone-laptop-repair-shop-privacy-breaches-real-incidents.md)

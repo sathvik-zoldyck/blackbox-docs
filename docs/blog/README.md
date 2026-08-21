@@ -2,10 +2,11 @@
 
 The Alcyone Secure blog, mirrored as plain markdown. Every post is grounded in cited, real-world incidents — repair-shop privacy breaches, insider data theft, and the forensics of proving what happened on a device.
 
-**14 articles.** Source of record: [alcyonesecure.com/blog](https://www.alcyonesecure.com/blog).
+**17 articles.** Source of record: [alcyonesecure.com/blog](https://www.alcyonesecure.com/blog).
 
 ## Investigation
 
+- [The software you installed is reading your Documents folder — and Windows will not tell you](./software-reading-your-documents-folder.md) — *9 min read*
 - [Phone and laptop repair shop privacy breaches: every documented incident from 2021 to 2025](./phone-laptop-repair-shop-privacy-breaches-real-incidents.md) — *14 min read*
 - [Apple paid 90 million dollars after iPhone repair technicians leaked a customer photos](./apple-pegatron-iphone-repair-90-million-settlement.md) — *9 min read*
 - [The University of Guelph study: half of computer repair stores snoop on customers](./guelph-study-half-repair-stores-snoop-on-customers.md) — *8 min read*
@@ -22,6 +23,7 @@ The Alcyone Secure blog, mirrored as plain markdown. Every post is grounded in c
 ## Security
 
 - [USB data theft: how 60 seconds and a thumb drive can copy your entire device](./usb-data-theft-60-seconds.md) — *7 min read*
+- [Your AI assistant just read your Documents folder. Would you know?](./ai-agents-reading-your-files.md) — *8 min read*
 
 ## Engineering
 
@@ -30,5 +32,6 @@ The Alcyone Secure blog, mirrored as plain markdown. Every post is grounded in c
 
 ## Compliance
 
+- [The DPDP compliance clock: every deadline between now and May 2027](./dpdp-compliance-timeline-2026-2027.md) — *9 min read*
 - [DPDP Act 2023, explained for Indian businesses (and what auditors actually look for)](./dpdp-act-2023-india-business-guide.md) — *9 min read*
 - [Why every enterprise device handover should produce evidence: the case for forensic logging in IT service workflows](./enterprise-device-handover-forensic-logging.md) — *10 min read*

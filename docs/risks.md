@@ -32,7 +32,7 @@ own restraint.
 Yes. Your Windows password only protects the login screen — a technician can pull the drive and
 read it from another machine, or boot from a USB stick and bypass the login entirely. If the
 disk is not encrypted, everything on it is readable without any credentials. Full-disk
-encryption (BitLocker, FileVault) closes the offline path — but the moment a repair requires the
+encryption closes the offline path — but the moment a repair requires the
 machine unlocked and signed in, which most do, encryption no longer protects anything.
 
 ### Who watches the people who already have access?
@@ -190,7 +190,7 @@ time — would have shortened detection from weeks to hours.
 
 1. **Back up first.** A verified backup of every important file gives you a baseline if anything is altered.
 2. **Sign out of cloud accounts.** And remove external drives. Every saved session is a credential exposure.
-3. **Turn on disk encryption.** BitLocker or FileVault stops cold-boot and drive-removal extraction (not a live unlocked session).
+3. **Turn on full-disk encryption.** It stops cold-boot and drive-removal extraction (not a live unlocked session).
 4. **Document the device state.** Photograph the home screen, installed apps, and key settings — anything that changes will stand out.
 5. **Use authorised channels.** Vetted service centres where possible. Screening is imperfect but better than a random storefront.
 6. **Ask for a work record.** A written summary forces the technician to commit to a story.

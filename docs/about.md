@@ -50,7 +50,7 @@ workplaces, insider access. The recorder is the tool that research said was miss
 individuals to defend themselves against it would have contradicted the entire reason for
 building it.
 
-The paid layer (Premium) exists for a narrow, honest reason: encrypted off-device backup and
+The paid layer (Personal) exists for a narrow, honest reason: encrypted off-device backup and
 log retrieval, so a wiped or stolen device does not take the evidence with it. The recorder
 itself never sits behind a paywall.
 
@@ -76,7 +76,7 @@ If a number ever moves, you hear it from us first — publicly.
 The company log, kept the way the product keeps yours: append-only, each frame sealed, the next
 one still on the runway.
 
-- **2025 — Founded.** Alcyone Secure incorporated in India with one idea: devices need a witness,
+- **2025 — Founded.** Alcyone Secure registered in India (MSME / Udyam) with one idea: devices need a witness,
   not another guard.
 - **2026 · V1 — The recorder ships.** Local capture, SHA-256 hash chain, forensic reports. Free
   for individuals, forever.

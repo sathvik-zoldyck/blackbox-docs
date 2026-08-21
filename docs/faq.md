@@ -26,7 +26,7 @@ Alcyone Secure is a cybersecurity software company focused on protecting devices
 
 ### Is Black Box free?
 
-Yes — the recorder is free, forever. Tamper-evident forensic recording, USB blocking, location recording, and in-app reports all run on your device at no cost, with no card and no trial clock. Premium (₹199 / $6 a month) adds the cloud layer: encrypted off-device backup, log retrieval, and multi-device support. Full breakdown on [the pricing page](https://www.alcyonesecure.com/pricing).
+Yes — the recorder is free, forever. Tamper-evident forensic recording, USB blocking, and in-app reports all run on your device at no cost, with no card and no trial clock. Personal (₹199 / $6 a month) adds the cloud layer: encrypted off-device backup, two years of history, log retrieval, optional location recording, and multi-device support. Full breakdown on [the pricing page](https://www.alcyonesecure.com/pricing).
 
 ### Is it safe to give my phone or laptop to a repair shop?
 
@@ -34,7 +34,7 @@ It carries a real, documented risk. A 2022 University of Guelph field study foun
 
 ### Where can I download Black Box?
 
-From [the download page](https://www.alcyonesecure.com/download). The installer is small, digitally signed, and works fully offline. Free for individuals, Windows 10 and 11.
+From [the download page](https://www.alcyonesecure.com/download). The installer is small (4.41 MB) and works fully offline. Free for individuals, Windows 10 and 11.
 
 <a id="blackbox"></a>
 
@@ -56,11 +56,11 @@ Yes. USB storage blocking is a free, built-in toggle: switch it on before a hand
 
 ### Does Black Box record my device's location?
 
-Only if you turn it on. Location recording is an optional toggle — useful when a device is out for repair or transit. Location entries go into the same encrypted, hash-chained log as everything else, on your device. Nobody but you can read them.
+Only if you turn it on, and it is part of the paid Personal plan. Location recording is an optional toggle — useful when a device is out for repair or transit — and it is off until you switch it on. Location entries go into the same encrypted, hash-chained log as everything else, on your device, and nobody but you can read them. The free tier does not record location.
 
 ### Does Black Box work offline?
 
-Yes. Black Box runs fully offline by default — monitoring, logging, and report generation need no internet. Only Premium cloud backup and update checks use a connection, and cloud sync resumes securely whenever a connection returns.
+Yes. Black Box runs fully offline by default — monitoring, logging, and report generation need no internet. Only Personal cloud backup and update checks use a connection, and cloud sync resumes securely whenever a connection returns.
 
 ### Does Black Box work on Windows 10 and 11?
 
@@ -68,7 +68,7 @@ Yes. Black Box supports Windows 10 (build 1903 and later) and all Windows 11 ver
 
 ### How much storage does Black Box use?
 
-The installer is around 3 MB. Activity logs are compressed and encrypted, typically 5 to 50 MB per device depending on activity volume and retention settings.
+The installer is 4.41 MB. Activity logs are compressed and encrypted, typically 5 to 50 MB per device depending on activity volume and retention settings.
 
 ### Does Black Box capture what websites I visit?
 
@@ -90,15 +90,15 @@ It subscribes to Windows’ PowerShell logging provider and captures the script 
 
 ### Can Alcyone employees read my logs?
 
-No — and not as a promise, as an architecture. Logs are encrypted on your device, with a key derived from your credentials, before anything is stored or synced. What our servers hold on Premium is ciphertext we cannot open. A breach of our own infrastructure would leak nothing readable. The website never displays log content for the same reason: there is nothing readable to display.
+No — and not as a promise, as an architecture. Logs are encrypted on your device, with a key derived from your credentials, before anything is stored or synced. What our servers hold on Personal is ciphertext we cannot open. A breach of our own infrastructure would leak nothing readable. The website never displays log content for the same reason: there is nothing readable to display.
 
 ### Does Black Box send my data to the cloud?
 
-Not unless you turn it on. On the free tier, every log stays on your device — nothing is transmitted, ever. On [Premium](https://www.alcyonesecure.com/pricing), encrypted copies of your logs are mirrored to tamper-evident cloud storage so they survive even if the device is wiped. Encryption happens on your machine before upload; the cloud only ever receives ciphertext.
+Not unless you turn it on. On the free tier, every log stays on your device — nothing is transmitted, ever. On [Personal](https://www.alcyonesecure.com/pricing), encrypted copies of your logs are mirrored to tamper-evident cloud storage so they survive even if the device is wiped. Encryption happens on your machine before upload; the cloud only ever receives ciphertext.
 
 ### How do I get my logs back if my device is stolen or wiped?
 
-On Premium: request your logs from your account, and your encrypted file is sent to your registered email. It opens only in the Black Box app, only with your password — on any machine. On the free tier the log lives only on the device, which is exactly the gap Premium exists to close. The flow is described on [the pricing page](https://www.alcyonesecure.com/pricing).
+On Personal: request your logs from the account you signed in with. We review each request by hand before releasing anything — a check on who is asking, never on what the file contains — and the encrypted file is sent to your registered email. It opens only in the Black Box app, and only with your password. On the free tier the log lives only on the device, which is exactly the gap Personal exists to close. The flow is described on [the pricing page](https://www.alcyonesecure.com/pricing).
 
 ### Can I export my activity logs?
 
@@ -186,13 +186,13 @@ Yes, and each stands alone. Black Box produces device-level evidence. CipherSuit
 
 ### Do I need an account to use Black Box?
 
-No — the free tier runs without an account. You create one only when you want Premium: cloud backup, log retrieval, and multiple devices under one identity. Sign up at [/signup](https://www.alcyonesecure.com/signup).
+No — the free tier runs without an account. You create one only when you want Personal: cloud backup, log retrieval, and multiple devices under one identity. Sign up at [/signup](https://www.alcyonesecure.com/signup).
 
 ### Can I protect multiple devices?
 
-Yes. The free tier is per-device with no account needed. [Premium](https://www.alcyonesecure.com/pricing) covers multiple devices under one account. For team and fleet deployment, email [contact@alcyonesecure.in](mailto:contact@alcyonesecure.in).
+Yes. The free tier is per-device with no account needed. [Personal](https://www.alcyonesecure.com/pricing) covers multiple devices under one account. For team and fleet deployment, email [contact@alcyonesecure.in](mailto:contact@alcyonesecure.in).
 
-### What happens if I cancel Premium?
+### What happens if I cancel Personal?
 
 The recorder keeps working on your device, free, forever — cancellation never touches local protection. Your cloud copies are returned to you as an encrypted archive, then deleted from our servers after a 30-day grace window.
 

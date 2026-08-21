@@ -50,7 +50,7 @@ from no one, reports to no one, and answers only to you.
 
 - **Free for individuals, forever.** Local recording, USB blocking, and forensic reports at no cost.
 - **Local-first.** Nothing leaves the device unless you turn on the optional encrypted cloud backup.
-- **Windows 10 and 11.** Small, signed installer.
+- **Windows 10 and 11.** Small installer (4.41 MB), works fully offline.
 
 Download and full product detail: **[alcyonesecure.com](https://www.alcyonesecure.com)**
 
@@ -95,7 +95,7 @@ instead of what you run today. Underneath it, watching the door nobody else does
 | **[About](docs/about.md)** | The company, why the recorder is free, what it will never do, the roadmap, and who builds it |
 | **[The Case Files](docs/risks.md)** | Fourteen documented data-theft cases — repair shops, workplaces, insiders — with cited sources and a preparation checklist |
 | **[FAQ](docs/faq.md)** | 37 direct answers: is it spyware, can we read your logs, is it legal, USB blocking, stolen devices, DPDP compliance |
-| **[Field Notes & Investigations](docs/blog/README.md)** | 14 long-form articles grounded in real incidents — Apple/Pegatron, the Guelph study, Kolkata, Tesla, Marks & Spencer, and more |
+| **[Field Notes & Investigations](docs/blog/README.md)** | 17 long-form articles grounded in real incidents — Apple/Pegatron, the Guelph study, Kolkata, Tesla, Marks & Spencer, and more |
 
 ---
 

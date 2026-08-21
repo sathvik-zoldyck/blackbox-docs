@@ -21,11 +21,11 @@ The order matters. Skip the early steps and the later ones lose effect. The Appl
 
 1. **Verified backup, not optimistic backup.** OneDrive showing a green tick is not a backup, it is a sync. Make a real, offline backup to an external drive, then restore one folder to a different machine to confirm it works.
 2. **Sign out of every cloud account that auto-syncs.** Browsers, password managers, OneDrive, Dropbox, Google Drive. Anything that survives a reboot signed in is a credential exposure.
-3. **Confirm BitLocker is on.** Settings, System, About, BitLocker. If it is off, turn it on at least 24 hours before the handover. BitLocker does not stop a powered-on, signed-in attack, but it makes a stolen drive useless.
-4. **Save the BitLocker recovery key elsewhere.** A printed copy in a desk drawer is fine. If the technician changes the boot configuration during repair, BitLocker will demand the key on next boot.
+3. **Confirm full-disk encryption is on.** Check your device encryption settings and switch it on at least 24 hours before the handover so it has time to finish. Encryption does not stop a powered-on, signed-in attack, but it makes a removed drive useless.
+4. **Save your encryption recovery key elsewhere.** A printed copy in a desk drawer is fine. If the technician changes the boot configuration during repair, the machine will demand that key on the next boot.
 5. **Create a separate, low-privilege technician account.** Do not hand over your daily-driver account. Create a local admin account named after the technician or service ticket. Sign in to that account during the handover. After the device returns, audit and delete it.
 6. **Snapshot the system state.** Screenshots of: installed apps (Settings, Apps, Installed apps), services running (Get-Service in PowerShell), startup entries (Task Manager, Startup apps), and your system tray. After the device returns, diff these.
-7. **Install [Black Box](https://www.alcyonesecure.com/products/blackbox).** Forensic recorder, 2.9 MB, signed installer, free for individuals. It logs USB events, file accesses, logins, and process starts into a SHA-256 hash chain. If the device is tampered with, you will know; if it is not, you will have a clean record to that effect.
+7. **Install [Black Box](https://www.alcyonesecure.com/products/blackbox).** Forensic recorder, 4.41 MB installer, free for individuals. It logs USB events, file accesses, logins, and process starts into a SHA-256 hash chain. If the device is tampered with, you will know; if it is not, you will have a clean record to that effect.
 8. **Document the device condition.** Photograph the keyboard, screen, and casing. Removes ambiguity if the device returns with new wear that the shop denies.
 
 ## Common steps (always do)
@@ -54,7 +54,7 @@ If the device is your daily-driver and contains personal media, banking sessions
 
 **Q: Will installing Black Box void my warranty?**
 
-No. It is a normal Windows service that runs in the background. It does not modify the operating system, does not require any boot-level changes, and is digitally signed.
+No. It is a normal Windows service that runs in the background. It does not modify the operating system, and does not require any boot-level changes.
 
 **Q: What if my repair is at an OEM-authorised service centre, not a small shop?**
 
