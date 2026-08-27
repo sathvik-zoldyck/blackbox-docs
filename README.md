@@ -1,5 +1,8 @@
 # Black Box — Public Documentation
 
+> **Languages** &nbsp;·&nbsp; **English** · [हिन्दी](README.hi.md) · [മലയാളം](README.ml.md) · [Español](README.es.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [日本語](README.ja.md) · [Bahasa Indonesia](README.id.md)
+
+
 **A forensic flight recorder for Windows, by [Alcyone Secure](https://www.alcyonesecure.com).**
 When your device leaves your hands — at a repair shop, during a device handover, on a shared
 desk, or in the custody of an employee, contractor, or insider — Black Box keeps a
