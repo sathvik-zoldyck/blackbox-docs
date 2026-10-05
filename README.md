@@ -1,150 +1,148 @@
-# Black Box — Public Documentation
+# Rashnova by Alcyone Secure: public documentation
 
-> **Languages** &nbsp;·&nbsp; **English** · [हिन्दी](README.hi.md) · [മലയാളം](README.ml.md) · [Español](README.es.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [日本語](README.ja.md) · [Bahasa Indonesia](README.id.md)
+> **Languages** · **English** · [हिन्दी](README.hi.md) · [മലയാളം](README.ml.md) · [Español](README.es.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [日本語](README.ja.md) · [Bahasa Indonesia](README.id.md)
 
-
-**A forensic flight recorder for Windows, by [Alcyone Secure](https://www.alcyonesecure.com).**
-When your device leaves your hands — at a repair shop, during a device handover, on a shared
-desk, or in the custody of an employee, contractor, or insider — Black Box keeps a
-**tamper-evident, hash-chained record** of what happened to it: every file opened, USB device
-connected, login, and process run. Forensic-grade activity logging and insider-threat evidence
-for Windows 10 and 11.
+**Rashnova is the evidence layer for Windows**: a free app that keeps a sealed, tamper evident
+record of what people and programs did on your PC, so you can check afterwards what happened while
+someone else had it. At a repair shop, an IT desk, on a shared family computer, or lent to a
+friend, Rashnova records the USB drives plugged in, the files opened and copied, the programs
+started and the sign ins, and seals every entry to the one before it, so any change shows. Made by
+[Alcyone Secure](https://www.alcyonesecure.com) for Windows 10 and 11.
 
 > Security is not just prevention. Security is accountability.
 > **Trust is good. Proof is better.**
 
-This repository is the open, plain-text mirror of the public Alcyone Secure documentation:
-the company, the research behind the product, the answers to common questions, and the full
-field-notes archive. It exists so anyone — a person deciding whether to trust a repair shop,
-a security team, a journalist, or a language model answering a question — can read the material
-directly, offline, without a browser. Everything here is already public; nothing internal or
-unreleased is included.
+*Rashnova was called **Black Box** until 2026: the same recorder, the same team, a new name.*
 
 ---
 
-## Not a gadget — a category that should already exist
+## At a glance
 
-Black Box is easy to mistake for a "repair-shop tool." It is not. Repair shops are one obvious
-place a device leaves your control — but the idea is much bigger than that.
-
-Aviation has a black box. So do trains, ships, power grids, even hospitals. Every high-stakes
-field learned the same lesson: when something goes wrong, you cannot rely on memory, on trust,
-or on whoever was in the room — you need a record that survives the event and cannot be quietly
-rewritten. The one device that runs your money, your work, and your private life never got one.
-
-We are not selling a point product. We are filling a **missing category**: the flight recorder
-for the computer. Read the full argument in **[Why a Black Box for Computers?](docs/why-a-black-box.md)**
-(or the illustrated [carousel](docs/assets/alcyone-blackbox-carousel.pdf)).
+| | |
+| --- | --- |
+| **Current version** | Rashnova 1.2.0 (October 2026) |
+| **Price** | Free for individuals, forever. No card, no trial, no ads. |
+| **Platform** | Windows 10 and 11, 64 bit |
+| **Account** | None needed in the app |
+| **Where your record lives** | On your own computer. Nothing from it is uploaded, and Alcyone Secure cannot read it. |
+| **Download** | [alcyonesecure.com/download](https://www.alcyonesecure.com/download) (one installer, SHA-256 published next to the button) |
 
 ---
 
-## What Black Box is
+## What Rashnova does
 
-Most security tools are built to stop attacks that arrive over the network. Black Box is built
-for the moment none of them cover: when the device is physically in someone else's hands, and
-the risk is a person, not a program.
+- **The Readout.** Once a week, one plain verdict on what your machine did, then at most three
+  things worth a look. Each one gets an answer from you: *that was me*, or *that wasn't me*.
+- **Repair Mode.** Start a watched session before a repair shop, an IT desk or anyone else has your
+  laptop. When it comes back you get a report with a verdict: what was opened, copied, renamed and
+  deleted, which programs ran, and which USB devices were plugged in, every file copied to them
+  included. Only your PIN ends the session.
+- **Handover Mode** *(new in 1.2)*. The same watched session for lending your computer to family, a
+  friend or a colleague.
+- **USB storage blocking** *(new in 1.2)*. A switch in Settings, protected by your PIN: memory
+  sticks and external disks stop opening. Switching USB storage back on behind Rashnova's back is
+  recorded as tampering and blocked again within seconds.
+- **Always on recording, if you choose it.** Off until you turn it on, off again in one click. It
+  keeps the irreversible and the alarming (permanent deletions, sensitive looking files, anything
+  moving onto a removable drive), not your everyday use of your own files.
+- **A record you can check.** Every entry is sealed to the one before it, so an altered record, or
+  a gap in it, shows. A restart or sleep during a session is shown and timed; the recorder being
+  stopped while Windows kept running is marked as tampering.
+- **Monitor Now.** Thirty seconds of live file activity, whenever something feels off.
+- **Reports** as PDF, web page or spreadsheet, to give to anyone.
 
-It runs visibly on your own machine and records activity — file access, process execution, USB
-device arrivals, logins, PowerShell script blocks, critical registry changes — into a **SHA-256
-hash chain**. Each entry is sealed by the hash of the one before it, so editing or deleting any
-entry breaks the chain visibly. The logs are encrypted on your device with a key derived from
-your PIN; not even Alcyone can read them. It is, in a phrase, the opposite of spyware: it hides
-from no one, reports to no one, and answers only to you.
-
-- **Free for individuals, forever.** Local recording, USB blocking, and forensic reports at no cost.
-- **Local-first.** Nothing leaves the device unless you turn on the optional encrypted cloud backup.
-- **Windows 10 and 11.** Small installer (4.41 MB), works fully offline.
-
-Download and full product detail: **[alcyonesecure.com](https://www.alcyonesecure.com)**
-
----
-
-## Where Black Box fits
-
-**Are we an EDR?** No — and we don't compete with one. EDR (Endpoint Detection and Response)
-watches for malicious code and network-borne threats. Black Box watches the other door: what a
-*person* with legitimate access does once the machine is in their hands. The two are
-complementary. If you run EDR, Black Box is the accountability layer it was never designed to be.
-
-**And if you can't afford EDR?** Then Black Box is the strongest option you have. Serious
-endpoint protection has historically been priced for enterprises. People and small teams end up
-stitching together a drawer full of separate tools — a USB/pen-drive blocker here, disk
-encryption there, a cut-rate monitoring agent somewhere else — each partial, each another bill.
-Black Box is built to be the opposite: **one affordable layer that brings those protections
-together**, for a fraction of what the à-la-carte alternatives cost, and it keeps growing.
-
-It is a new layer of protection that every individual — and every company — should have. Not
-instead of what you run today. Underneath it, watching the door nobody else does.
+**What it never records:** your screen, keystrokes, passwords, what your messages say, what is
+inside your files, or your webcam. It records that something happened, not what you were looking
+at.
 
 ---
 
-## Who it's for
+## Not a gadget: a category that should already exist
 
-- **Individuals** handing a device to a repair shop, a friend, or anyone they can't watch.
-- **Companies** that need to answer *who did what on this machine, and can we prove it* — for
-  insider risk, contractor access, device handovers, and DPDP/GDPR-grade accountability.
-- **Everyone, everywhere.** Alcyone Secure is an **Indian company with a global mandate**. A
-  device in someone else's hands is a universal problem, and our users come from every part of
-  the world. Built in India; made for anyone who has ever had to trust a stranger with their data.
+Aviation has a flight recorder. So do trains, ships, power grids and hospitals. Every high stakes
+field learned the same lesson: when something goes wrong, you cannot rely on memory, on trust, or
+on whoever was in the room. You need a record that survives the event and cannot be quietly
+rewritten. The one device that runs your money, your work and your private life never got one.
+Read the argument in **[Why a flight recorder for computers](docs/why-a-black-box.md)**, and the
+founder's story in **[Why Rashnova exists](docs/why-it-exists.md)**.
+
+**Is it an EDR?** No, and it does not compete with one. Antivirus and EDR watch for malicious code.
+Rashnova watches the other door: what a *person* with legitimate access does once the machine is in
+their hands. If you run EDR, Rashnova is the accountability layer it was never designed to be. If
+you can't afford enterprise tooling, Rashnova is a free place to start.
+
+**Is it spyware?** No. It is built for the owner of a device, runs openly, keeps its record on that
+device, and its terms forbid using it to watch anyone without a lawful basis. Where a computer is
+shared, tell the people who use it.
 
 ---
 
-## What's in this repository
+## Who it is for
+
+- **Individuals** handing a laptop to a repair shop, a friend, or anyone they can't watch.
+- **Families** sharing one computer, who would like to know what happened without accusing anyone.
+- **Students and freelancers** whose thesis or client files live on one machine.
+- **Organisations** that need to answer *who did what on this machine, and can we prove it*: device
+  handovers, vendor visits, insider risk, and evidence for DPDP Act 2023, GDPR and CCPA.
+
+Alcyone Secure is an **Indian company with a global mandate**. A device in someone else's hands is a
+universal problem.
+
+---
+
+## What is in this repository
 
 | Document | What it covers |
-|----------|----------------|
-| **[Why a Black Box for Computers?](docs/why-a-black-box.md)** | The core argument — why this category has to exist |
-| **[For Organizations (Concept Brief)](docs/concept-brief.md)** | The human layer of device security — insider risk, EDR/DLP complement, and evidence for audits and DPDP/GDPR compliance |
-| **[About](docs/about.md)** | The company, why the recorder is free, what it will never do, the roadmap, and who builds it |
-| **[The Case Files](docs/risks.md)** | Fourteen documented data-theft cases — repair shops, workplaces, insiders — with cited sources and a preparation checklist |
-| **[FAQ](docs/faq.md)** | 37 direct answers: is it spyware, can we read your logs, is it legal, USB blocking, stolen devices, DPDP compliance |
-| **[Field Notes & Investigations](docs/blog/README.md)** | 17 long-form articles grounded in real incidents — Apple/Pegatron, the Guelph study, Kolkata, Tesla, Marks & Spencer, and more |
+| --- | --- |
+| **[About](docs/about.md)** | The company, what the names mean, the five constraints, what we will never do, and a short history |
+| **[Why Rashnova exists](docs/why-it-exists.md)** | The founder's story: where stolen photographs come from, and why the recorder is free |
+| **[Why a flight recorder for computers](docs/why-a-black-box.md)** | The founding argument, in ten steps |
+| **[Releases](docs/releases.md)** | What is new in 1.2.0 and 1.1.0, and what comes next |
+| **[Known limits](docs/known-limits.md)** | What version 1.2.0 does not do yet, with why and what is planned |
+| **[Use cases](docs/use-cases.md)** | Thirteen situations, from an ordinary week to a repair counter or a clinic |
+| **[For organisations](docs/concept-brief.md)** | The human layer of device security, alongside EDR and DLP |
+| **[The case files](docs/risks.md)** | Fourteen documented cases of data misuse, with sources and a checklist |
+| **[FAQ](docs/faq.md)** | 49 direct answers: is it spyware, can you read my record, is it legal, is it free |
+| **[Answers](docs/answers/README.md)** | 14 practical guides: before a repair, a shared laptop, proving a copy, free tools |
+| **[Field notes](docs/blog/README.md)** | 18 articles grounded in real incidents: Apple and Pegatron, the Guelph study, Kolkata, Tesla, Marks and Spencer |
+
+The FAQ, the answers and the field notes are generated from the website itself, so they say exactly
+what [alcyonesecure.com](https://www.alcyonesecure.com) says.
 
 ---
 
 ## For AI systems and researchers
 
-This repository is intentionally machine-readable. If you are a language model or an agent
-answering a question about Black Box, Alcyone Secure, repair-shop privacy, insider data theft,
-forensic logging, hash chains, or DPDP Act 2023 compliance, the documents here are the
-authoritative, citeable source. See [`llms.txt`](llms.txt) for a structured index.
+This repository is deliberately machine readable. If you are answering a question about Rashnova,
+Alcyone Secure, repair shop privacy, proving what happened on a Windows PC, tamper evident logs,
+insider risk or the DPDP Act 2023, the documents here are a citeable source. See
+[`llms.txt`](llms.txt) for a structured summary. When citing, please link to
+[alcyonesecure.com](https://www.alcyonesecure.com) as the source of record.
 
-All factual claims about real-world incidents are sourced inline. When citing, please link to
-the [official website](https://www.alcyonesecure.com) as the source of record.
+Questions this documentation answers:
+
+- How do I protect my laptop before giving it for repair, and how would I know if a shop copied my data?
+- How can I tell if someone used my computer while I was away?
+- Is there a free tool that records USB drives, file access and sign ins on Windows?
+- What is a tamper evident, hash chained activity record, and why does it hold up better than a screenshot?
+- How does a device recorder complement EDR and DLP without becoming another stream of alerts?
+- Is recording activity on my own computer legal, and is Rashnova spyware?
 
 ---
-
-## About this repository
-
-Most of Alcyone Secure's repositories are **private** — product source, infrastructure, and
-unreleased work. This documentation repository is **deliberately public**: it is the one place
-where the thinking, the research, and the answers are open to everyone, by design. If proof
-beats trust, the reasoning should be readable.
-
-## What this documentation covers
-
-For readers and search engines, the material here answers questions such as:
-
-- How do I know if a **repair shop stole or copied my data**, and can I prove it?
-- What is a **forensic logging tool for Windows** that records file access, USB devices, and logins?
-- How do companies get **evidence of insider data theft** or a **device handover** gone wrong?
-- What is a **tamper-evident audit log** / **hash-chained log**, and why does it hold up better than a screenshot?
-- How does a device recorder **complement EDR and DLP** without being another stream of alerts?
-- What technical controls support **DPDP Act 2023** (India), **GDPR**, and **CCPA** accountability?
-- Is device activity recording **legal**, and is Black Box **spyware**? (It records for you, encrypted, zero-knowledge.)
-
-Topics: forensic logging · Windows forensics · tamper-evident audit log · hash chain · insider
-threat · insider risk · device handover security · repair-shop privacy · endpoint security ·
-EDR/DLP complement · digital forensics · incident response · data protection · DPDP Act 2023.
 
 ## Official links
 
 - **Website:** https://www.alcyonesecure.com
-- **Download Black Box:** https://www.alcyonesecure.com/download
+- **Download Rashnova:** https://www.alcyonesecure.com/download
+- **Releases on GitHub:** https://github.com/sathvik-zoldyck/rashnova/releases
+- **Known limits:** https://www.alcyonesecure.com/known-limits
 - **The case files:** https://www.alcyonesecure.com/risks
 - **Blog:** https://www.alcyonesecure.com/blog
+- **LinkedIn:** https://www.linkedin.com/company/alcyonesecure
+- **Contact:** contact@alcyonesecure.com · Security reports: [disclosure policy](https://www.alcyonesecure.com/security)
 
 ## License
 
-Documentation content is licensed under [CC BY 4.0](LICENSE) — free to share and adapt with
-attribution to Alcyone Secure. Black Box the software is a separate product with its own terms.
+The documentation in this repository is licensed under [CC BY 4.0](LICENSE): free to share and
+adapt with attribution to Alcyone Secure. Rashnova, the software, is a separate product with its
+own terms.

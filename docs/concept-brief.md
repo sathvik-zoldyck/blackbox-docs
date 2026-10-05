@@ -1,4 +1,8 @@
-# Black Box for Organizations — The Human Layer of Device Security
+# Rashnova for Organizations: The Human Layer of Device Security
+
+> Written when the product was called **Black Box**; it is now **Rashnova**. The free recorder is
+> available today; fleet features for organisations are in development. For deployment, custom
+> configuration and volume pricing, contact contact@alcyonesecure.com.
 
 *Concept brief. Forensic-grade device security from Alcyone Secure. This is the readable
 version of the [concept brief PDF](assets/alcyone-secure-concept-brief.pdf).*
@@ -33,13 +37,13 @@ Industry surveys have reported average detection times for insider-driven securi
 **exceeding 170 days.** By the time a question is asked, the record needed to answer it is usually
 gone, overwritten, or buried in noise.
 
-## 02 · What Black Box does
+## 02 · What Rashnova does
 
 The name is borrowed from the flight data recorder in aircraft. A black box does not prevent an
 incident — it preserves a protected, tamper-evident record so that afterward, investigators can
 establish exactly what happened.
 
-Black Box applies that same principle to devices. When a machine leaves trusted control, it
+Rashnova applies that same principle to devices. When a machine leaves trusted control, it
 records the security-relevant activity in a tamper-evident format. If something goes wrong, there
 is evidence to review, investigate, and act on. It is an **evidence layer, not an enforcement
 layer:** it does not claim to stop the event; it makes the truth recoverable and provable after
@@ -47,13 +51,13 @@ it — which is precisely what investigations, audits, and compliance work requi
 
 ## 03 · Where it fits
 
-Black Box does **not** replace antivirus, EDR, or DLP. Those tools detect and block, and they do
+Rashnova does **not** replace antivirus, EDR, or DLP. Those tools detect and block, and they do
 that well. It covers the dimension they do not: the human accountability and physical handling
 layer, captured as tamper-evident evidence. It **complements an existing security stack rather
 than competing with it.**
 
 And it is not another stream of alerts. Existing logging captures volume; it rarely captures
-meaning. Black Box filters the noise down to the security-relevant human events, ties them to the
+meaning. Rashnova filters the noise down to the security-relevant human events, ties them to the
 window that matters, and presents a clean, readable account. Not more logs to reconstruct an
 incident from — a trustworthy record of what actually happened.
 
@@ -82,8 +86,8 @@ problem is real in your world, an honest read — including where it falls short
 we want to hear.
 
 - Web: [alcyonesecure.com](https://www.alcyonesecure.com)
-- Email: contact@alcyonesecure.in
-- LinkedIn: [linkedin.com/in/sathvik-r-dev](https://www.linkedin.com/in/sathvik-r-dev)
+- Email: contact@alcyonesecure.com
+- LinkedIn: [Alcyone Secure](https://www.linkedin.com/company/alcyonesecure)
 
 — **Sathvik R**, Founder, Alcyone Secure
 

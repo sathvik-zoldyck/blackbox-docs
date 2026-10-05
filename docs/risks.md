@@ -50,7 +50,10 @@ Without a dedicated recorder, you usually can't. Windows keeps almost no user-re
 file access — and in the Guelph study, technicians who snooped deleted the few traces that
 exist, like the "Quick Access" recent-files list. This is the accountability gap the entire
 problem rests on: the incident leaves no fingerprint, so the victim never knows, so the
-behaviour never carries consequences. It is exactly what Black Box exists to close.
+behaviour never carries consequences. It is exactly what Rashnova exists to close: a tamper
+evident, sealed record of every file opened, USB device inserted and sign in during a Repair or
+Handover session. Deleting the record doesn't work: every entry is chained to the one before it, so
+removal or alteration is itself detectable.
 
 ---
 
@@ -195,7 +198,7 @@ time — would have shortened detection from weeks to hours.
 5. **Use authorised channels.** Vetted service centres where possible. Screening is imperfect but better than a random storefront.
 6. **Ask for a work record.** A written summary forces the technician to commit to a story.
 7. **Track your repair history.** When, where, and why each device was serviced — a starting point if something surfaces later.
-8. **Run a forensic recorder.** Install [Black Box](https://www.alcyonesecure.com/download) before handover — tamper-evident proof of every USB connection, file open, login, and system event during the repair window.
+8. **Run a forensic recorder.** Install [Rashnova](https://www.alcyonesecure.com/download) before handover and arm Repair Mode: tamper evident proof of every USB connection, file open, sign in and system event during the repair window. Lending it to family or a friend instead? Handover Mode records the same.
 
 Full walkthrough: [the 2026 pre-repair checklist](blog/windows-laptop-pre-repair-checklist.md).
 
@@ -205,7 +208,7 @@ Full walkthrough: [the 2026 pre-repair checklist](blog/windows-laptop-pre-repair
 2. **Kill active sessions and tokens.** Sign out all devices and revoke app sessions. Stolen cookies outlive a password change.
 3. **Watch the money.** Alert your bank; watch card statements and credit activity.
 4. **Report it.** FTC (reportfraud.ftc.gov) or IC3 (ic3.gov) in the US, cybercrime.gov.in in India, or your local cybercrime unit.
-5. **Preserve what evidence exists.** Receipts, names, dates, screenshots. If you were running Black Box, export the forensic report.
+5. **Preserve what evidence exists.** Receipts, names, dates, screenshots. If you were running Rashnova, export the session report: that is exactly the evidence these cases usually lack.
 
 ---
 
@@ -229,8 +232,9 @@ After the fact, you usually can't — Windows keeps few user-visible traces and 
 delete them. Proof requires recording during the exposure window into a tamper-evident hash chain.
 
 **What if an employee wipes the laptop before returning it?**
-A factory reset destroys the local record — which is why it can't only live on the device. With
-off-device, tamper-evident backup, the wipe destroys nothing.
+A factory reset destroys the local record, which is why the record can't only live on the device.
+With Rashnova Personal (coming soon), an encrypted, tamper evident copy of the record lives off
+the device, so the wipe destroys nothing.
 
 ---
 
