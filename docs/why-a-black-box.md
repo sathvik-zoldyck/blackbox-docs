@@ -1,5 +1,8 @@
 # Why a Black Box for Computers?
 
+> This is the founding argument, written when the product was still called **Black Box**. It is
+> now **Rashnova**: the same recorder, the same team, a new name. See [About](about.md) for why.
+
 *The argument, in ten steps. This is the written version of our [carousel](assets/alcyone-blackbox-carousel.pdf) — the same case, in plain text so anyone (and any machine) can read it without opening a slide deck.*
 
 > Security is not just prevention. Security is accountability.
@@ -69,7 +72,7 @@ lives on be any different?
 If you work in security, we would genuinely like to hear where you land on this. The disagreement
 is the interesting part.
 
-— **Sathvik R**, building Black Box at Alcyone Secure
+**Sathvik R**, founder of Alcyone Secure, makers of Rashnova
 
 ---
 

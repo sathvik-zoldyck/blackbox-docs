@@ -2,13 +2,13 @@
 
 *Engineering · Apr 2026 · 7 min read*
 
-> Activity monitoring tells you what happened. Forensic logging produces evidence. The difference matters when it stops being a security question and starts being a legal one.
+> **In short:** Activity monitoring tells you what happened. Forensic logging produces evidence. The difference matters when it stops being a security question and starts being a legal one.
 
 Most teams already have activity monitoring. So why is forensic logging a separate category? Because there is a sharp line between knowing what happened and being able to prove it to a third party who is willing to disagree with you.
 
 ## What activity monitoring is good at
 
-Activity monitoring surfaces anomalies fast. Login from an unusual country, a process spawning a shell, a sudden spike in outbound traffic. The job is detection: get a human looking at the right thing within minutes. It is not built to be evidence. The data is normalised, enriched, and frequently re-written by the pipeline.
+Activity monitoring surfaces anomalies fast. Login from an unusual country, a process spawning a shell, a sudden spike in outbound traffic. The job is detection: get a human looking at the right thing within minutes. It is not built to be evidence. The data is normalised, enriched, and frequently rewritten by the pipeline.
 
 ## What forensic logging adds
 
@@ -30,22 +30,25 @@ The moment a security incident becomes a legal matter. Insider data theft, emplo
 
 ## What to look for in a forensic recorder
 
-- Hash-chained or Merkle-anchored event log, not just append-only storage.
+- Hash chained or Merkle anchored event log, not just append only storage.
 - Independent shadow copy, separately keyed.
-- Local-first capture; events signed before any network transit.
+- Local first capture; events signed before any network transit.
 - Documented, reproducible verification by any third party.
 - Public threat model.
 
-[Black Box](https://www.alcyonesecure.com/products/blackbox) meets these in its default install. The verifier is open, the chain is SHA-256, and the threat model is documented.
+[Rashnova](https://www.alcyonesecure.com/products/rashnova) is built to meet these: its record is sealed entry by entry, kept on your device, and checkable. An offline verifier for exported evidence is coming with evidence bundles.
 
-**Q: Does my EDR replace forensic logging?**
+## Questions
+
+**Does my EDR replace forensic logging?**
 
 No. EDR is a security tool, forensic logging is a legal tool. They complement each other and a serious programme runs both.
 
-**Q: Can a regular SIEM produce admissible evidence?**
+**Can a regular SIEM produce admissible evidence?**
 
-Sometimes, with significant effort. The pipeline normalisation and re-writing typically used by SIEMs makes authentication harder. Forensic recorders are designed to skip that gap.
+Sometimes, with significant effort. The pipeline normalisation and rewriting typically used by SIEMs makes authentication harder. Forensic recorders are designed to skip that gap.
 
 ---
 
-*Published on the [Alcyone Secure blog](https://www.alcyonesecure.com/blog/forensic-logging-vs-activity-monitoring). This document mirrors public website content for open, offline, and machine reading.*
+*Source of record: [https://www.alcyonesecure.com/blog/forensic-logging-vs-activity-monitoring](https://www.alcyonesecure.com/blog/forensic-logging-vs-activity-monitoring). This copy is generated from the website; edit the website, not this file.*
+
