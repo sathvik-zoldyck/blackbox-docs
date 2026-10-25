@@ -2,9 +2,9 @@
 
 *Compliance · Apr 2026 · 9 min read*
 
-> **In short:** A practical, founder friendly walkthrough of India Digital Personal Data Protection Act 2023: what changed, what auditors test for, and why audit trails are the easiest mistake to fix.
+> **In short:** A practical, founder friendly walkthrough of India's Digital Personal Data Protection Act 2023: what changed, what auditors test for, and why audit trails are the easiest mistake to fix.
 
-India Digital Personal Data Protection Act 2023, usually shortened to DPDP, is the country first horizontal data protection law. It applies to almost any business that handles personal data about Indian residents, regardless of where the business is incorporated. If you have customers, employees, or vendors in India, you are very likely a data fiduciary under the Act.
+India's Digital Personal Data Protection Act 2023, usually shortened to DPDP, is the country first horizontal data protection law. It applies to almost any business that handles personal data about Indian residents, regardless of where the business is incorporated. If you have customers, employees, or vendors in India, you are very likely a data fiduciary under the Act.
 
 This is not a legal document; it is a working summary written for founders, ops leads, and IT teams who need to know what to do this quarter, not in two years.
 

@@ -51,7 +51,7 @@ Not detection. Nobody can reliably classify a file read as sinister, a backup to
 
 With a record like that, none of the cases above would have needed a regulator. Someone would have noticed their antivirus reading a great deal more than it needed to, and asked why.
 
-This is what [Rashnova](https://www.alcyonesecure.com/products/rashnova) does. It records the same kinds of activity the professional tools look at, keeps it in a hash chained log on your machine, and every week the **Readout** tells you which programs read which folders and how often, including when an app touches a folder for the first time. It does not tell you an app is malicious. It tells you what it did, and lets you decide. It is free, and the log never leaves your device.
+This is what [Rashnova](https://www.alcyonesecure.com/products/rashnova) does. It records the same kinds of activity the professional tools look at, keeps it in a hash chained log on your machine, and its **Readout**, covering the last 7 days, tells you which programs read which folders and how often, including when an app touches a folder for the first time. It does not tell you an app is malicious. It tells you what it did, and lets you decide. It is free, and the log never leaves your device.
 
 ## Questions
 

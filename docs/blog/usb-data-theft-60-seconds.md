@@ -2,7 +2,7 @@
 
 *Security · Apr 2026 · 7 min read*
 
-> **In short:** USB exfiltration is the most underrated threat in any unsupervised device scenario. How it actually works, why standard antivirus misses it, and what kernel level monitoring can do.
+> **In short:** USB exfiltration is the most underrated threat in any unsupervised device scenario. How it actually works, why standard antivirus misses it, and what a record kept on the computer can show.
 
 There is no safer feeling moment in a repair shop than when the technician plugs in a thumb drive. It looks like a tool. It can be a tool. It can also be a one minute exit door for everything on your machine.
 
@@ -18,7 +18,7 @@ Antivirus engines look for malware signatures and bad behaviour patterns. A buil
 
 ## What does work
 
-- Kernel level event tracing (ETW on Windows) that records process starts and file open volumes regardless of the API. This catches robocopy and xcopy at the level where they cannot hide.
+- A recorder that notes which programs start and how many files they read, whatever tool does the reading. Robocopy and xcopy are noticed exactly like anything else.
 - USB device arrival logging with VID, PID, and serial number, plus matching device removal records. Reconstructable timeline: a USB stick was here, between these two timestamps, while these files were being read.
 
 Together, those two streams produce a forensic timeline. [Rashnova](https://www.alcyonesecure.com/products/rashnova) records both as part of what it captures by default. Each event is sealed into a chain, so a technician who reaches the log file cannot quietly delete the USB arrival entry without producing a chain break.

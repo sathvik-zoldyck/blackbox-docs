@@ -26,7 +26,7 @@ The control is not preventative, a determined insider with legitimate access can
 
 **Sources**
 
-- [Tesla data breach notification, Maine Attorney General (August 2023)](https://apps.web.maine.gov/online/aeviewer/ME/40/)
+- [Fox Business, on Tesla's notice to the Maine Attorney General (August 2023)](https://www.foxbusiness.com/technology/tesla-data-breach-affects-75735-people-state-attorney-general-announces)
 - [Handelsblatt original reporting](https://www.handelsblatt.com/)
 
 ---

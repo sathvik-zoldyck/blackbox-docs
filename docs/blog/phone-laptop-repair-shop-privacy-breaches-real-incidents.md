@@ -20,15 +20,16 @@ In 2016, an Oregon college student handed her iPhone to Apple for a repair. The 
 
 ## The University of Guelph repair-shop study (2022)
 
-Researchers at the University of Guelph in Canada took identical test laptops to 16 repair shops, big and small. The laptops contained tagged decoy files (browsing history, photos, documents) and instrumented logs. The researchers asked only for a battery replacement, a job that does not require the technician to log in or browse files at all.
+Researchers at the University of Guelph in Canada left new Windows laptops with a simple audio fault at 16 repair visits in Ontario, from national chains to local shops. The laptops held personal photos, documents and browsing history, and logged everything the technician did. Fixing the audio needed no access to anyone's files.
 
-Across 16 visits, technicians snooped through customer files in six. Tagged photos were opened. Browsing history was viewed. In two visits technicians copied data to external drives, and three tried to cover their tracks. The study, written up by Lifewire and others, became one of the cleanest empirical confirmations that the repair shop privacy problem is structural, not vendor specific.
+Technicians looked through personal data in 6 of the 16 repairs, and copied it to an external drive in 2. Of the 6, 3 then cleared Windows' recent files list to hide it. The study was peer reviewed and published at the IEEE Symposium on Security and Privacy in 2023, and it is the clearest measured evidence that the problem is not limited to one kind of shop.
 
 **Sources**
 
+- [The paper: No Privacy in the Electronics Repair Industry (arXiv 2211.05824)](https://arxiv.org/abs/2211.05824)
 - [Lifewire, on the University of Guelph study](https://www.lifewire.com/need-a-computer-repair-study-finds-your-personal-data-may-be-at-risk-6890084)
 
-## Kolkata phone repair shop, 2025: a customer private video leak
+## Kolkata phone repair shop, 2025: a customer's private video leak
 
 In September 2025, a Kolkata woman publicly accused a local phone repair shop of leaking her private videos. Her viral post on X and Instagram triggered a national outrage cycle and nationwide press coverage in India. India Times reported the case in detail. As of writing, the matter is in the hands of the police; the broader public reaction has reignited debate on whether Indian consumer protection law treats repair shop snooping as a meaningful offence.
 
@@ -40,7 +41,7 @@ The pattern (phone left for service, intimate media exfiltrated, leaked online w
 
 ## Trivandrum (Kerala): phone repair, photos leaked
 
-An October 2025 thread in r/Trivandrum described how a friend photos surfaced online days after a phone repair at a local shop. The post was widely shared in Kerala-tech and consumer protection communities and prompted local-news follow-ups. Comment threads from people in the same district reported similar experiences with the same and other shops.
+An October 2025 thread in r/Trivandrum described how a friend's photos surfaced online days after a phone repair at a local shop. The post was widely shared in Kerala-tech and consumer protection communities and prompted local-news follow-ups. Comment threads from people in the same district reported similar experiences with the same and other shops.
 
 We cover this incident and the regional pattern in [the Kerala phone repair photo leak](./kerala-trivandrum-phone-repair-photo-leak.md).
 
@@ -93,7 +94,7 @@ Across vendor brands, countries, and decades, four structural failures repeat:
 
 ## What the playbook looks like in 2026
 
-Every incident in this catalogue would have produced evidence (and in some cases would have been deterred) if the device had been logging at the kernel level into a tamper evident chain during the service window. That is exactly the model behind [Rashnova](https://www.alcyonesecure.com/products/rashnova), our forensic flight recorder for Windows. For phones, the same primitives apply but require operating-system support that is still partial.
+Every incident in this catalogue would have produced evidence (and in some cases would have been deterred) if the device had been keeping a tamper evident record during the service window. That is exactly the model behind [Rashnova](https://www.alcyonesecure.com/products/rashnova), the evidence layer for Windows: it reads what Windows itself reports about activity on the computer, and adds no driver to Windows. For phones, the same primitives apply but require operating-system support that is still partial.
 
 If you take one practical lesson from this catalogue, it is this: do not hand over a device you have not prepared. Read our [12-step pre-repair checklist](./windows-laptop-pre-repair-checklist.md) before the next handover.
 

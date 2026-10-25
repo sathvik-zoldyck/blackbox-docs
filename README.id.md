@@ -2,18 +2,15 @@
 
 > **Bahasa** · [English](README.md) · [हिन्दी](README.hi.md) · [മലയാളം](README.ml.md) · [Español](README.es.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [日本語](README.ja.md) · **Bahasa Indonesia**
 
-**Rashnova adalah lapisan bukti untuk Windows**: aplikasi gratis yang menyimpan catatan tersegel dan
-anti rusak tentang apa yang dilakukan orang dan program di PC Anda, sehingga Anda bisa memeriksa
-nanti apa yang terjadi selama perangkat dipegang orang lain. Di tempat servis, di meja IT kantor, di
-komputer keluarga, atau saat dipinjamkan ke teman, Rashnova mencatat flashdisk yang dicolokkan, file
-yang dibuka dan disalin, program yang dijalankan, dan aktivitas masuk akun, lalu menyegel setiap entri
-ke entri sebelumnya sehingga setiap perubahan akan terlihat. Dibuat oleh
-[Alcyone Secure](https://www.alcyonesecure.com) untuk Windows 10 dan 11.
+**Rashnova adalah aplikasi Windows gratis yang membuktikan sesuatu.** Mau menitipkan laptop ke
+bengkel servis, pusat servis, atau teman? Rashnova mencatat apa yang dibuka, disalin, atau
+dicolokkan selama laptop tidak bersama Anda, disegel agar tidak ada yang bisa mengubahnya diam
+diam, dan menunjukkannya saat laptop kembali. Dan **Rashnova Proof** membuktikan bahwa file apa pun
+sudah ada, persis seperti adanya, pada waktu tertentu: gratis, offline, disaksikan oleh empat jam
+independen, bukan oleh kami. Dibuat oleh [Alcyone Secure](https://www.alcyonesecure.com) untuk
+Windows 10 dan 11.
 
-> Keamanan bukan hanya pencegahan. Keamanan adalah akuntabilitas.
-> **Percaya itu baik. Bukti lebih baik.**
-
-*Hingga 2026, Rashnova bernama **Black Box**: perekam yang sama, tim yang sama, nama baru.*
+> **Trust is good. Proof is better.**
 
 ---
 
@@ -21,10 +18,10 @@ ke entri sebelumnya sehingga setiap perubahan akan terlihat. Dibuat oleh
 
 | | |
 | --- | --- |
-| **Versi terbaru** | Rashnova 1.2.0 (Oktober 2026) |
-| **Harga** | Gratis untuk perorangan, selamanya. Tanpa kartu, tanpa masa uji coba, tanpa iklan. |
+| **Versi saat ini** | Rashnova 1.3.0 (25 Oktober 2026) |
+| **Harga** | Gratis, selamanya. Tanpa kartu, tanpa masa uji coba, tanpa iklan. |
 | **Platform** | Windows 10 dan 11, 64 bit |
-| **Akun** | Tidak perlu di dalam aplikasi |
+| **Akun** | Akun gratis untuk mengunduh; aplikasinya berjalan tanpa masuk |
 | **Di mana catatan Anda disimpan** | Di komputer Anda sendiri. Tidak ada yang diunggah, dan Alcyone Secure tidak bisa membacanya. |
 | **Unduh** | [alcyonesecure.com/download](https://www.alcyonesecure.com/download) (satu installer, SHA-256 dipublikasikan di samping tombol) |
 
@@ -32,113 +29,152 @@ ke entri sebelumnya sehingga setiap perubahan akan terlihat. Dibuat oleh
 
 ## Apa yang dilakukan Rashnova
 
-- **The Readout.** Sekali seminggu, satu kesimpulan jelas tentang apa yang dilakukan komputer Anda,
-  lalu paling banyak tiga hal yang layak dicek. Anda menjawab masing masing: *itu saya*, atau *itu
-  bukan saya*.
-- **Repair Mode.** Mulai sesi yang diawasi sebelum tempat servis, tim IT, atau siapa pun memegang
-  laptop Anda. Saat kembali, Anda menerima laporan dengan kesimpulan: apa yang dibuka, disalin,
-  diganti nama, dan dihapus, program apa yang berjalan, dan perangkat USB apa yang dicolokkan,
-  termasuk setiap file yang disalin ke sana. Hanya PIN Anda yang bisa mengakhiri sesi.
-- **Handover Mode** *(baru di 1.2)*. Sesi yang diawasi yang sama untuk meminjamkan komputer kepada
-  keluarga, teman, atau rekan kerja.
-- **Pemblokiran penyimpanan USB** *(baru di 1.2)*. Sakelar di Pengaturan yang dilindungi PIN Anda:
-  flashdisk dan disk eksternal tidak bisa dibuka lagi. Menyalakan kembali penyimpanan USB tanpa
-  sepengetahuan Rashnova dicatat sebagai upaya perusakan dan diblokir lagi dalam hitungan detik.
-- **Perekaman selalu aktif, jika Anda memilihnya.** Mati sampai Anda menyalakannya, dan bisa
-  dimatikan lagi dengan satu klik. Yang disimpan hanyalah hal yang tidak bisa dibatalkan dan yang
-  mengkhawatirkan (penghapusan permanen, file yang tampak sensitif, apa pun yang berpindah ke drive
-  lepasan), bukan penggunaan sehari hari atas file Anda sendiri.
-- **Catatan yang bisa Anda periksa.** Setiap entri disegel ke entri sebelumnya, sehingga catatan yang
-  diubah atau celah di dalamnya akan terlihat. Restart atau mode tidur selama sesi ditampilkan beserta
-  durasinya; perekam yang dihentikan saat Windows tetap berjalan ditandai sebagai upaya perusakan.
-- **Monitor Now.** Tiga puluh detik aktivitas file secara langsung, saat ada yang terasa janggal.
-- **Laporan** dalam bentuk PDF, halaman web, atau spreadsheet, untuk diberikan kepada siapa pun.
+**Proof dan Origin** *(baru di 1.3)*
 
-**Yang tidak pernah direkam:** layar Anda, ketikan keyboard, kata sandi, isi pesan Anda, isi file
-Anda, atau webcam Anda. Yang dicatat adalah bahwa sesuatu terjadi, bukan apa yang sedang Anda lihat.
+- **Rashnova Proof.** Jatuhkan sebuah file atau seluruh folder. Rashnova membuktikan bahwa file itu
+  sudah ada, tanpa perubahan, pada waktu tertentu. Waktunya disaksikan oleh empat layanan independen
+  (drand, DigiCert, Sectigo, dan Bitcoin melalui OpenTimestamps), setiap bukti ditandatangani dua kali
+  (satu tanda tangan pasca kuantum), dan Anda mendapat sertifikat PDF. File Anda tidak pernah
+  meninggalkan komputer, dan siapa pun bisa memeriksa bukti di browser apa pun, offline, bahkan
+  tanpa Rashnova.
+- **Origin.** Jatuhkan sebuah file untuk melihat asalnya, apakah berubah, dan kapan file itu ada.
+  Ia mengatakan dengan jelas apa yang tidak bisa diandalkan, dan tidak ada yang diunggah.
+
+Orang membuktikan perjanjian sewa dan foto pada hari pindah, skripsi sebelum dikumpulkan, desain
+sebelum dikirim ke klien, faktur dan kontrak, foto pengemasan sebelum pengiriman, dan file mereka
+sebelum servis.
+
+**Repair Mode dan Handover Mode**
+
+- **Repair Mode.** Mulai sebelum laptop dibawa ke bengkel atau pusat servis. File dan folder yang
+  dibuka, program yang dijalankan, USB drive beserta setiap file yang disalin ke sana, Wi‑Fi yang
+  disambungkan, tangkapan layar, dan siapa pun yang mencoba menghapus jejak (mengosongkan daftar file
+  terbaru, mengosongkan Recycle Bin) dicatat dan disegel. Saat kembali, Anda mendapat satu laporan,
+  temuan lebih dulu. Hanya PIN Anda yang bisa mengakhiri sesi. Windows tidak punya mode perawatan
+  seperti Samsung atau Pixel: inilah separuh yang hilang, sebuah catatan.
+- **Handover Mode.** Untuk keluarga, teman, atau rekan kerja: tiket berisi siapa yang memegang
+  komputer dan alasannya, apa yang mereka gunakan, dan hanya PIN Anda yang bisa mengambilnya kembali.
+
+**Setiap hari**
+
+- **Always On, atau hanya saat Anda minta.** Anda memilih saat penyiapan, dan mengubahnya dengan satu klik.
+- **The Readout.** Minggu Anda dalam satu kalimat, dengan paling banyak tiga hal yang layak dilihat.
+  Anda menjawab masing masing: *that was me* atau *that wasn't me*.
+- **Monitor Now.** Lihat apa yang menyentuh file Anda selama beberapa menit ke depan, atau satu jam ke depan.
+- **Apa yang dikatakan Windows sendiri.** Jika Defender menemukan sesuatu, atau seseorang mematikan
+  perlindungan, itu tercatat persis seperti yang ditulis Windows.
+- **Catatan yang bisa Anda periksa.** Setiap entri disegel dengan SHA-256 ke entri sebelumnya,
+  sehingga setiap perubahan atau celah terlihat.
+- **Desain yang benar benar baru** *(1.3)*, sejak layar pertama.
+
+**Yang tidak pernah dicatat:** layar Anda, ketikan, kata sandi, isi pesan Anda, isi file Anda, alamat
+atau isi halaman yang Anda kunjungi, atau kamera Anda. Selama sesi Repair atau Handover, judul tab
+browser dicatat; nama file dicatat, isinya tidak pernah.
+
+---
+
+## Batasan yang jujur
+
+- Ia hanya mencatat saat sedang berjalan. Ia tidak bisa melihat ke belakang ke servis yang sudah terjadi.
+- Sebuah bukti menunjukkan bahwa file sudah ada, persis seperti adanya, pada waktu tertentu. Bukti itu
+  tidak menunjukkan siapa pembuatnya, bahwa isinya benar, atau bahwa pengadilan akan menerimanya.
+- File yang dikirim ulang lewat WhatsApp atau email, atau disimpan ulang, adalah file lain dan tidak
+  lagi cocok dengan buktinya. Simpan file aslinya.
+- Installer belum ditandatangani kode, jadi browser atau Windows SmartScreen mungkin memberi peringatan;
+  SHA-256 dipublikasikan di halaman unduhan agar Anda bisa memeriksa file.
+- PIN yang terlupa tidak bisa dipulihkan, memang dirancang begitu.
 
 ---
 
 ## Bukan gadget: kategori yang seharusnya sudah ada
 
-Penerbangan punya kotak hitam. Kereta, kapal, jaringan listrik, dan rumah sakit juga punya
-pencatatnya. Setiap bidang berisiko tinggi belajar pelajaran yang sama: saat sesuatu salah, Anda
-tidak bisa mengandalkan ingatan, kepercayaan, atau orang yang ada di ruangan. Anda butuh catatan yang
-bertahan setelah kejadian dan tidak bisa ditulis ulang diam diam. Perangkat yang mengurus uang,
+Penerbangan punya perekam penerbangan. Begitu juga kereta, kapal, jaringan listrik, dan rumah sakit.
+Setiap bidang berisiko tinggi belajar pelajaran yang sama: saat ada yang salah, Anda tidak bisa
+mengandalkan ingatan, kepercayaan, atau siapa pun yang ada di ruangan. Anda butuh catatan yang
+bertahan dari kejadian dan tidak bisa ditulis ulang diam diam. Satu perangkat yang mengurus uang,
 pekerjaan, dan kehidupan pribadi Anda tidak pernah memilikinya. Baca argumennya di
-**[Mengapa kotak hitam untuk komputer](docs/why-a-black-box.md)** dan kisah pendirinya di
-**[Mengapa Rashnova ada](docs/why-it-exists.md)** (dalam bahasa Inggris).
+**[Why a flight recorder for computers](docs/why-a-black-box.md)**, dan kisah pendirinya di
+**[Why Rashnova exists](docs/why-it-exists.md)**.
 
 **Apakah ini EDR?** Bukan, dan tidak bersaing dengannya. Antivirus dan EDR mengawasi kode berbahaya.
-Rashnova mengawasi pintu yang lain: apa yang dilakukan *seseorang* dengan akses sah setelah komputer
-ada di tangannya. Jika Anda memakai EDR, Rashnova adalah lapisan akuntabilitas yang memang tidak
-dirancang untuk EDR. Jika alat kelas perusahaan terlalu mahal, Rashnova adalah titik awal yang gratis.
+Rashnova mengawasi pintu yang lain: apa yang dilakukan *orang* dengan akses sah setelah perangkat ada
+di tangannya.
 
-**Apakah ini spyware?** Bukan. Rashnova dibuat untuk pemilik perangkat, berjalan secara terbuka,
-menyimpan catatannya di perangkat itu sendiri, dan ketentuannya melarang penggunaan untuk mengawasi
-siapa pun tanpa dasar hukum. Jika komputer dipakai bersama, beri tahu orang orang yang memakainya.
+**Apakah ini spyware?** Bukan. Ia dibuat untuk pemilik perangkat, berjalan secara terbuka, menyimpan
+catatannya di perangkat itu, dan ketentuannya melarang penggunaannya untuk mengawasi siapa pun tanpa
+dasar hukum. Tiket Handover Mode mencantumkan nama orang yang memegang komputer, jadi ini catatan yang
+diketahui kedua pihak.
 
 ---
 
 ## Untuk siapa
 
-- **Perorangan** yang menitipkan laptop ke tempat servis, teman, atau siapa pun yang tidak bisa
-  mereka awasi.
+- **Siapa saja yang menitipkan laptop** ke bengkel servis, pusat servis, teman, atau siapa pun yang tidak bisa diawasi.
+- **Penyewa, mahasiswa, pekerja lepas, dan kreator** yang perlu menunjukkan bahwa sebuah file sudah ada pada suatu tanggal.
+- **Usaha kecil dan penjual online** yang membuktikan faktur, kontrak, desain, dan foto pengemasan.
 - **Keluarga** yang berbagi satu komputer dan ingin tahu apa yang terjadi tanpa menuduh siapa pun.
-- **Mahasiswa dan pekerja lepas** yang skripsi atau file kliennya ada di satu komputer.
-- **Organisasi** yang perlu menjawab *siapa melakukan apa di komputer ini, dan bisakah kita
-  membuktikannya*: serah terima perangkat, kunjungan vendor, risiko orang dalam, serta bukti untuk UU
-  DPDP India 2023, GDPR, dan CCPA.
+- **Organisasi** yang perlu menjawab *siapa melakukan apa di mesin ini, dan bisakah kita membuktikannya*.
+  Rashnova juga gratis bagi mereka; [Rashnova for Organisations](https://www.alcyonesecure.com/contact?topic=business)
+  menambahkan bukti atas nama organisasi dan penerapan di komputer komputernya.
 
-Alcyone Secure adalah **perusahaan India dengan misi global**. Perangkat di tangan orang lain adalah
-masalah di mana saja.
+Alcyone Secure adalah **perusahaan India dengan misi global**.
 
 ---
 
 ## Isi repositori ini
 
-| Dokumen (bahasa Inggris) | Isinya |
+| Dokumen | Isi |
 | --- | --- |
-| **[About](docs/about.md)** | Perusahaan, arti nama, lima batasan, hal yang tidak akan pernah kami lakukan, dan sejarah singkat |
+| **[About](docs/about.md)** | Perusahaan, arti nama namanya, apa yang tidak akan pernah kami lakukan, dan sejarah singkat |
 | **[Why Rashnova exists](docs/why-it-exists.md)** | Kisah pendiri: dari mana foto curian berasal, dan mengapa perekamnya gratis |
-| **[Why a flight recorder for computers](docs/why-a-black-box.md)** | Argumen dasarnya, dalam sepuluh langkah |
-| **[Releases](docs/releases.md)** | Yang baru di 1.2.0 dan 1.1.0, dan rencana berikutnya |
-| **[Known limits](docs/known-limits.md)** | Apa yang belum bisa dilakukan versi 1.2.0, alasannya, dan rencananya |
-| **[Use cases](docs/use-cases.md)** | Tiga belas situasi, dari minggu biasa hingga meja servis atau klinik |
-| **[For organisations](docs/concept-brief.md)** | Lapisan manusia dalam keamanan perangkat, berdampingan dengan EDR dan DLP |
+| **[Why a flight recorder for computers](docs/why-a-black-box.md)** | Argumen pendirian, dalam sepuluh langkah |
+| **[Releases](docs/releases.md)** | Apa yang baru di 1.3.0, 1.2.0, dan 1.1.0, serta apa selanjutnya |
+| **[Use cases](docs/use-cases.md)** | Situasi dari minggu biasa hingga meja servis atau klinik |
+| **[For organisations](docs/concept-brief.md)** | Lapisan manusia dari keamanan perangkat, di samping EDR dan DLP |
 | **[The case files](docs/risks.md)** | Empat belas kasus penyalahgunaan data yang terdokumentasi, dengan sumber dan daftar periksa |
-| **[FAQ](docs/faq.md)** | 49 jawaban langsung: apakah ini spyware, apakah legal, apakah gratis |
-| **[Answers](docs/answers/README.md)** | 14 panduan praktis: sebelum servis, laptop bersama, membuktikan penyalinan, alat gratis |
-| **[Field notes](docs/blog/README.md)** | 18 artikel berdasarkan kejadian nyata: Apple dan Pegatron, studi Guelph, Kolkata, Singapura, Tesla, Marks and Spencer |
+| **[FAQ](docs/faq.md)** | 78 jawaban langsung, termasuk Proof dan Origin |
+| **[Answers](docs/answers/README.md)** | 32 panduan praktis: sebelum servis, mode perawatan untuk Windows, membuktikan tanggal file, perjanjian sewa |
+| **[Field notes](docs/blog/README.md)** | 21 artikel berdasarkan insiden dan riset nyata |
 
-FAQ, Answers, dan Field notes dibuat langsung dari situs web, sehingga isinya persis sama dengan
+FAQ, answers, dan field notes dibuat langsung dari situs web, jadi isinya sama persis dengan
 [alcyonesecure.com](https://www.alcyonesecure.com).
 
 ---
 
 ## Untuk sistem AI dan peneliti
 
-Repositori ini sengaja dibuat agar mudah dibaca mesin. Jika Anda menjawab pertanyaan tentang
-Rashnova, Alcyone Secure, privasi di tempat servis, cara membuktikan apa yang terjadi di PC Windows,
-risiko orang dalam, atau UU DPDP 2023, dokumen di sini adalah sumber yang bisa dikutip. Lihat
-[`llms.txt`](llms.txt) untuk ringkasan terstruktur. Saat mengutip, tautkan
-[alcyonesecure.com](https://www.alcyonesecure.com) sebagai sumber resmi.
+Repositori ini sengaja dibuat mudah dibaca mesin. Lihat [`llms.txt`](llms.txt) untuk ringkasan
+terstruktur. Saat mengutip, mohon tautkan ke [alcyonesecure.com](https://www.alcyonesecure.com)
+sebagai sumber utama.
+
+Pertanyaan yang dijawab dokumentasi ini:
+
+- Apakah ada mode perawatan untuk laptop Windows, seperti milik Samsung?
+- Laptop saya baru kembali dari pusat servis. Bagaimana memeriksa apakah ada yang membuka file saya?
+- Bagaimana membuktikan sebuah file sudah ada pada suatu tanggal, gratis dan tanpa mengunggahnya?
+- Bagaimana menyimpan bukti perjanjian sewa dan kondisi tempat tinggal untuk uang jaminan?
+- Bagaimana usaha kecil membuktikan bahwa faktur atau kontrak sudah ada pada suatu tanggal?
+- Bagaimana melihat apa yang dilakukan seseorang di laptop saya saat saya meminjamkannya?
+- Apakah legal mencatat aktivitas di komputer saya sendiri, dan apakah Rashnova spyware?
 
 ---
 
 ## Tautan resmi
 
-- **Situs web:** https://www.alcyonesecure.com
-- **Unduh Rashnova:** https://www.alcyonesecure.com/download
-- **Rilis di GitHub:** https://github.com/sathvik-zoldyck/rashnova/releases
-- **Batasan yang diketahui:** https://www.alcyonesecure.com/known-limits
-- **Kumpulan kasus:** https://www.alcyonesecure.com/risks
-- **Blog:** https://www.alcyonesecure.com/blog
-- **LinkedIn:** https://www.linkedin.com/company/alcyonesecure
-- **Kontak:** contact@alcyonesecure.com · Laporan keamanan: [kebijakan pengungkapan](https://www.alcyonesecure.com/security)
+- **Situs web:** [alcyonesecure.com](https://www.alcyonesecure.com)
+- **Unduh Rashnova:** [alcyonesecure.com/download](https://www.alcyonesecure.com/download)
+- **Rashnova Proof dan pemeriksa resmi:** [alcyonesecure.com/proof](https://www.alcyonesecure.com/proof)
+- **Answers:** [alcyonesecure.com/answers](https://www.alcyonesecure.com/answers)
+- **Rilis di GitHub:** [github.com/sathvik-zoldyck/rashnova/releases](https://github.com/sathvik-zoldyck/rashnova/releases)
+- **The case files:** [alcyonesecure.com/risks](https://www.alcyonesecure.com/risks)
+- **Blog:** [alcyonesecure.com/blog](https://www.alcyonesecure.com/blog)
+- **LinkedIn:** [linkedin.com/company/alcyonesecure](https://www.linkedin.com/company/alcyonesecure)
+- **Kontak:** contact@alcyonesecure.com · Laporan keamanan: [disclosure policy](https://www.alcyonesecure.com/security)
+
+*Versi Rashnova sebelumnya bernama Black Box.*
 
 ## Lisensi
 
 Dokumentasi di repositori ini berlisensi [CC BY 4.0](LICENSE): bebas dibagikan dan diadaptasi dengan
-mencantumkan Alcyone Secure. Rashnova, perangkat lunaknya, adalah produk terpisah dengan ketentuannya
-sendiri.
+atribusi kepada Alcyone Secure. Rashnova, perangkat lunaknya, adalah produk terpisah dengan
+ketentuannya sendiri.

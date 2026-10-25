@@ -2,9 +2,9 @@
 
 *Investigation · Apr 2026 · 7 min read*
 
-> **In short:** A 2025 r/Trivandrum thread described a friend personal photos surfacing online after a routine phone repair. The thread surfaced multiple similar reports from the same district. The case is small in scale but useful as a template: in regions with high phone density and low audit posture, snooping events surface faster on social media than through formal channels.
+> **In short:** A 2025 r/Trivandrum thread described a friend's personal photos surfacing online after a routine phone repair. The thread surfaced multiple similar reports from the same district. The case is small in scale but useful as a template: in regions with high phone density and low audit posture, snooping events surface faster on social media than through formal channels.
 
-The Trivandrum incident was reported by a member of the r/Trivandrum subreddit in October 2025. The original post described how a friend personal photos appeared online within days of a phone repair at a local shop. The thread filled within hours with comments from other users in the same district describing similar experiences (some recent, some years older) at multiple shops in the same commercial zones.
+The Trivandrum incident was reported by a member of the r/Trivandrum subreddit in October 2025. The original post described how a friend's personal photos appeared online within days of a phone repair at a local shop. The thread filled within hours with comments from other users in the same district describing similar experiences (some recent, some years older) at multiple shops in the same commercial zones.
 
 **Primary source**
 
