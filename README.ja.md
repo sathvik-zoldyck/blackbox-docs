@@ -97,7 +97,7 @@
 同じ教訓を学びました。何かがうまくいかなかったとき、記憶にも、信頼にも、その場にいた人にも頼れない。
 出来事を越えて残り、こっそり書き換えられない記録が必要なのです。あなたのお金、仕事、私生活を担う
 たった 1 つの機器には、それがありませんでした。論旨は
-**[Why a flight recorder for computers](docs/why-a-black-box.md)** で、創業者の物語は
+**[alcyonesecure.com](https://www.alcyonesecure.com)** で、創業者の物語は
 **[Why Rashnova exists](docs/why-it-exists.md)** でお読みください。
 
 **EDR ですか？** いいえ、競合もしません。アンチウイルスや EDR は悪意あるコードを監視します。
@@ -129,10 +129,8 @@ Alcyone Secure は **世界を視野に入れたインドの企業** です。
 | --- | --- |
 | **[About](docs/about.md)** | 会社、名前の意味、私たちが決してしないこと、短い歴史 |
 | **[Why Rashnova exists](docs/why-it-exists.md)** | 創業者の物語：盗まれた写真はどこから来るのか、なぜレコーダーは無料なのか |
-| **[Why a flight recorder for computers](docs/why-a-black-box.md)** | 創業の論旨を 10 のステップで |
 | **[Releases](docs/releases.md)** | 1.3.0、1.2.0、1.1.0 の新機能と今後 |
 | **[Use cases](docs/use-cases.md)** | 普段の 1 週間から修理カウンターやクリニックまでの場面 |
-| **[For organisations](docs/concept-brief.md)** | EDR と DLP に並ぶ、機器セキュリティの人間のレイヤー |
 | **[The case files](docs/risks.md)** | データ悪用の記録された 14 の事例、出典とチェックリスト付き |
 | **[FAQ](docs/faq.md)** | Proof と Origin を含む 78 の率直な回答 |
 | **[Answers](docs/answers/README.md)** | 32 の実践ガイド：修理の前に、Windows のメンテナンスモード、ファイルの日付の証明、賃貸契約 |

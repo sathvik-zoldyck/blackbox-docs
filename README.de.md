@@ -107,7 +107,7 @@ Bereich mit hohem Einsatz hat dieselbe Lektion gelernt: Wenn etwas schiefgeht, k
 auf das Gedächtnis, auf Vertrauen oder auf die Person im Raum verlassen. Man braucht ein Protokoll,
 das das Ereignis übersteht und nicht heimlich umgeschrieben werden kann. Das eine Gerät, das Ihr
 Geld, Ihre Arbeit und Ihr Privatleben steuert, hat nie eines bekommen. Lesen Sie das Argument in
-**[Why a flight recorder for computers](docs/why-a-black-box.md)** und die Geschichte des Gründers in
+**[alcyonesecure.com](https://www.alcyonesecure.com)** und die Geschichte des Gründers in
 **[Why Rashnova exists](docs/why-it-exists.md)**.
 
 **Ist es ein EDR?** Nein, und es konkurriert nicht mit einem. Antivirus und EDR achten auf
@@ -141,10 +141,8 @@ Alcyone Secure ist ein **indisches Unternehmen mit globalem Anspruch**.
 | --- | --- |
 | **[About](docs/about.md)** | Das Unternehmen, die Bedeutung der Namen, was wir nie tun werden, und eine kurze Geschichte |
 | **[Why Rashnova exists](docs/why-it-exists.md)** | Die Geschichte des Gründers: woher gestohlene Fotos kommen und warum der Recorder kostenlos ist |
-| **[Why a flight recorder for computers](docs/why-a-black-box.md)** | Das Gründungsargument in zehn Schritten |
 | **[Releases](docs/releases.md)** | Was in 1.3.0, 1.2.0 und 1.1.0 neu ist, und was als Nächstes kommt |
 | **[Use cases](docs/use-cases.md)** | Situationen von einer normalen Woche bis zur Reparaturtheke oder Klinik |
-| **[For organisations](docs/concept-brief.md)** | Die menschliche Ebene der Gerätesicherheit, neben EDR und DLP |
 | **[The case files](docs/risks.md)** | Vierzehn dokumentierte Fälle von Datenmissbrauch, mit Quellen und Checkliste |
 | **[FAQ](docs/faq.md)** | 78 direkte Antworten, auch zu Proof und Origin |
 | **[Answers](docs/answers/README.md)** | 32 praktische Leitfäden: vor einer Reparatur, ein Wartungsmodus für Windows, das Datum einer Datei beweisen, ein Mietvertrag |

@@ -102,7 +102,7 @@ Setiap bidang berisiko tinggi belajar pelajaran yang sama: saat ada yang salah, 
 mengandalkan ingatan, kepercayaan, atau siapa pun yang ada di ruangan. Anda butuh catatan yang
 bertahan dari kejadian dan tidak bisa ditulis ulang diam diam. Satu perangkat yang mengurus uang,
 pekerjaan, dan kehidupan pribadi Anda tidak pernah memilikinya. Baca argumennya di
-**[Why a flight recorder for computers](docs/why-a-black-box.md)**, dan kisah pendirinya di
+**[alcyonesecure.com](https://www.alcyonesecure.com)**, dan kisah pendirinya di
 **[Why Rashnova exists](docs/why-it-exists.md)**.
 
 **Apakah ini EDR?** Bukan, dan tidak bersaing dengannya. Antivirus dan EDR mengawasi kode berbahaya.
@@ -136,10 +136,8 @@ Alcyone Secure adalah **perusahaan India dengan misi global**.
 | --- | --- |
 | **[About](docs/about.md)** | Perusahaan, arti nama namanya, apa yang tidak akan pernah kami lakukan, dan sejarah singkat |
 | **[Why Rashnova exists](docs/why-it-exists.md)** | Kisah pendiri: dari mana foto curian berasal, dan mengapa perekamnya gratis |
-| **[Why a flight recorder for computers](docs/why-a-black-box.md)** | Argumen pendirian, dalam sepuluh langkah |
 | **[Releases](docs/releases.md)** | Apa yang baru di 1.3.0, 1.2.0, dan 1.1.0, serta apa selanjutnya |
 | **[Use cases](docs/use-cases.md)** | Situasi dari minggu biasa hingga meja servis atau klinik |
-| **[For organisations](docs/concept-brief.md)** | Lapisan manusia dari keamanan perangkat, di samping EDR dan DLP |
 | **[The case files](docs/risks.md)** | Empat belas kasus penyalahgunaan data yang terdokumentasi, dengan sumber dan daftar periksa |
 | **[FAQ](docs/faq.md)** | 78 jawaban langsung, termasuk Proof dan Origin |
 | **[Answers](docs/answers/README.md)** | 32 panduan praktis: sebelum servis, mode perawatan untuk Windows, membuktikan tanggal file, perjanjian sewa |

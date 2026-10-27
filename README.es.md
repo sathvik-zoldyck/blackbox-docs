@@ -102,7 +102,7 @@ los hospitales. Cada ámbito de alto riesgo aprendió la misma lección: cuando 
 puedes fiarte de la memoria, de la confianza ni de quien estaba en la sala. Necesitas un registro
 que sobreviva al hecho y que no pueda reescribirse en silencio. El único aparato que gestiona tu
 dinero, tu trabajo y tu vida privada nunca tuvo uno. Lee el argumento en
-**[Why a flight recorder for computers](docs/why-a-black-box.md)** y la historia del fundador en
+**[alcyonesecure.com](https://www.alcyonesecure.com)** y la historia del fundador en
 **[Why Rashnova exists](docs/why-it-exists.md)**.
 
 **¿Es un EDR?** No, y no compite con uno. El antivirus y el EDR vigilan el código malicioso. Rashnova
@@ -136,10 +136,8 @@ Alcyone Secure es una **empresa india con vocación global**.
 | --- | --- |
 | **[About](docs/about.md)** | La empresa, qué significan los nombres, lo que nunca haremos y una breve historia |
 | **[Why Rashnova exists](docs/why-it-exists.md)** | La historia del fundador: de dónde salen las fotografías robadas, y por qué el registrador es gratis |
-| **[Why a flight recorder for computers](docs/why-a-black-box.md)** | El argumento fundacional, en diez pasos |
 | **[Releases](docs/releases.md)** | Qué hay de nuevo en 1.3.0, 1.2.0 y 1.1.0, y qué viene después |
 | **[Use cases](docs/use-cases.md)** | Situaciones desde una semana normal hasta un mostrador de reparaciones o una clínica |
-| **[For organisations](docs/concept-brief.md)** | La capa humana de la seguridad de los dispositivos, junto a EDR y DLP |
 | **[The case files](docs/risks.md)** | Catorce casos documentados de uso indebido de datos, con fuentes y una lista de comprobación |
 | **[FAQ](docs/faq.md)** | 78 respuestas directas, incluidas Proof y Origin |
 | **[Answers](docs/answers/README.md)** | 32 guías prácticas: antes de una reparación, un modo de mantenimiento para Windows, demostrar la fecha de un archivo, un contrato de alquiler |
