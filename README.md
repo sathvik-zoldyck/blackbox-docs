@@ -100,7 +100,7 @@ Aviation has a flight recorder. So do trains, ships, power grids and hospitals. 
 field learned the same lesson: when something goes wrong, you cannot rely on memory, on trust, or
 on whoever was in the room. You need a record that survives the event and cannot be quietly
 rewritten. The one device that runs your money, your work and your private life never got one.
-Read the argument in **[Why a flight recorder for computers](docs/why-a-black-box.md)**, and the
+Read the argument in **[alcyonesecure.com](https://www.alcyonesecure.com)**, and the
 founder's story in **[Why Rashnova exists](docs/why-it-exists.md)**.
 
 **Is it an EDR?** No, and it does not compete with one. Antivirus and EDR watch for malicious code.
@@ -133,10 +133,8 @@ Alcyone Secure is an **Indian company with a global mandate**.
 | --- | --- |
 | **[About](docs/about.md)** | The company, what the names mean, what we will never do, and a short history |
 | **[Why Rashnova exists](docs/why-it-exists.md)** | The founder's story: where stolen photographs come from, and why the recorder is free |
-| **[Why a flight recorder for computers](docs/why-a-black-box.md)** | The founding argument, in ten steps |
 | **[Releases](docs/releases.md)** | What is new in 1.3.0, 1.2.0 and 1.1.0, and what comes next |
 | **[Use cases](docs/use-cases.md)** | Situations from an ordinary week to a repair counter or a clinic |
-| **[For organisations](docs/concept-brief.md)** | The human layer of device security, alongside EDR and DLP |
 | **[The case files](docs/risks.md)** | Fourteen documented cases of data misuse, with sources and a checklist |
 | **[FAQ](docs/faq.md)** | 78 direct answers, including Proof and Origin: is it spyware, can you read my record, is it free |
 | **[Answers](docs/answers/README.md)** | 32 practical guides: before a repair, a Windows maintenance mode, proving a file's date, a rent agreement, a shared laptop |

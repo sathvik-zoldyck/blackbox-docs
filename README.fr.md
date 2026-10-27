@@ -106,7 +106,7 @@ hôpitaux aussi. Chaque domaine à fort enjeu a appris la même leçon : quand q
 on ne peut se fier ni à la mémoire, ni à la confiance, ni à celui qui était dans la pièce. Il faut
 un registre qui survive à l'événement et qu'on ne puisse pas réécrire en silence. Le seul appareil
 qui gère votre argent, votre travail et votre vie privée n'en a jamais eu. Lisez l'argument dans
-**[Why a flight recorder for computers](docs/why-a-black-box.md)**, et l'histoire du fondateur dans
+**[alcyonesecure.com](https://www.alcyonesecure.com)**, et l'histoire du fondateur dans
 **[Why Rashnova exists](docs/why-it-exists.md)**.
 
 **Est ce un EDR ?** Non, et il ne lui fait pas concurrence. L'antivirus et l'EDR surveillent le code
@@ -140,10 +140,8 @@ Alcyone Secure est une **entreprise indienne à vocation mondiale**.
 | --- | --- |
 | **[About](docs/about.md)** | L'entreprise, le sens des noms, ce que nous ne ferons jamais, et un bref historique |
 | **[Why Rashnova exists](docs/why-it-exists.md)** | L'histoire du fondateur : d'où viennent les photos volées, et pourquoi l'enregistreur est gratuit |
-| **[Why a flight recorder for computers](docs/why-a-black-box.md)** | L'argument fondateur, en dix étapes |
 | **[Releases](docs/releases.md)** | Les nouveautés de la 1.3.0, de la 1.2.0 et de la 1.1.0, et la suite |
 | **[Use cases](docs/use-cases.md)** | Des situations, d'une semaine ordinaire à un comptoir de réparation ou une clinique |
-| **[For organisations](docs/concept-brief.md)** | La couche humaine de la sécurité des appareils, aux côtés de l'EDR et du DLP |
 | **[The case files](docs/risks.md)** | Quatorze cas documentés d'abus de données, avec sources et liste de vérification |
 | **[FAQ](docs/faq.md)** | 78 réponses directes, dont Proof et Origin |
 | **[Answers](docs/answers/README.md)** | 32 guides pratiques : avant une réparation, un mode maintenance pour Windows, prouver la date d'un fichier, un bail |
