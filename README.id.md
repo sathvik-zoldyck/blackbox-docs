@@ -12,6 +12,15 @@ Windows 10 dan 11.
 
 > **Trust is good. Proof is better.**
 
+<!-- screens -->
+<table>
+<tr><td width="50%"><img src="docs/assets/screens/overview.webp" alt="The Rashnova Overview: today in one line, an unbroken record, every recorded day, and the week's Readout"></td><td width="50%"><img src="docs/assets/screens/proof-certificate.webp" alt="A proof just made: Proved, with the fingerprint, the witnessed time and the pass with its star seal"></td></tr>
+<tr><td width="50%"><img src="docs/assets/screens/repair-case.webp" alt="Repair Mode after a repair: the case, the finding first, and each personal place sealed or opened"></td><td width="50%"><img src="docs/assets/screens/origin.webp" alt="Origin: where a photo came from, whether it changed, and when it existed"></td></tr>
+</table>
+
+**[Lihat semua layar →](docs/screens.md)**
+<!-- /screens -->
+
 ---
 
 ## Sekilas
