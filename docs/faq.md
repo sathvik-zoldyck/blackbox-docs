@@ -1,14 +1,80 @@
 # Frequently asked questions
 
-49 answers about Rashnova and Alcyone Secure, in 7 groups.
+78 answers about Rashnova and Alcyone Secure, in 9 groups.
 
+- [What people ask most](#what-people-ask-most)
 - [General](#general)
 - [The recorder](#the-recorder)
+- [Rashnova Proof & Origin](#rashnova-proof--origin)
 - [Privacy & the cloud](#privacy--the-cloud)
 - [Tampering & evidence](#tampering--evidence)
 - [Legal & compliance](#legal--compliance)
 - [Other products](#other-products)
 - [Billing & support](#billing--support)
+
+## What people ask most
+
+*The questions people type about repair shops, their files and proving things, answered plainly*
+
+### Can repair shops see my photos?
+
+Yes, if the device is unlocked or they have your password, a technician can open anything on it, photos included. Most never do, but it happens: in a 2022 University of Guelph study, technicians looked through personal data in 6 of 16 repairs, half of those whose logs could be read, and copied it in 2. Before a repair, back up, sign out of cloud accounts, and give the shop a separate account instead of yours. Then keep a record of the visit: during a Repair session, [Rashnova](https://www.alcyonesecure.com/products/rashnova) notes every file opened and every USB drive plugged in, sealed so it cannot be quietly changed, and tells you when the laptop comes back. [Read the full answer](./answers/can-repair-shops-see-my-photos.md).
+
+### Do computer repair shops look at your files?
+
+Some do. Most repairs never need your files, yet studies and court cases show technicians opening photos and documents that had nothing to do with the fault. You usually cannot tell afterwards, because Windows does not keep a readable record of which files were opened. The fix is to record the visit while it happens: Rashnova's Repair Mode keeps a sealed account of what was opened, copied and plugged in, with plain findings and a verdict when the laptop is back. It is free.
+
+### Should I remove my hard drive before sending my laptop for repair?
+
+If the repair does not involve the drive (a screen, a keyboard, a hinge) and your laptop lets you remove it easily, yes: no drive, no data to see. Many modern laptops have the storage soldered to the board, so that is not always possible, and some repairs need the drive to test the machine. When the drive has to go with it: back up, move your most private files off, give the shop a separate account, and record the visit with Rashnova's Repair Mode so you know exactly what was touched. [Read the full answer](./answers/should-i-remove-hard-drive-before-repair.md).
+
+### Should I give my password to the repair shop?
+
+Not your own. Make a separate Windows account for the technician (Settings, Accounts, Other users), give them that password, and remove the account when the laptop is back. If the shop insists on yours, change it straight after. A separate account keeps your own files and signed in apps out of easy reach, though an administrator can still reach everything. That is why it helps to start a Repair session in Rashnova before you hand it over: anything done to your files gets written down and sealed.
+
+### How can I tell if someone accessed my files on my laptop?
+
+Windows gives you hints, not a record: Recent files in File Explorer, files sorted by date modified, and sign ins in Event Viewer. All of them can be cleared, and none says reliably who opened what. To know for certain next time, the record has to be running beforehand: [Rashnova](https://www.alcyonesecure.com/products/rashnova) keeps a sealed record on your own computer, free: always on, the things that matter, such as USB drives and sign ins; during a Repair or Handover session, every file opened and program started too. Any attempt to edit it shows. [Read the full answer](./answers/tell-if-someone-used-my-computer.md).
+
+### How do I see what files were copied to a USB drive?
+
+Windows does not keep that list. It remembers which USB drives were plugged in (in Device Manager with hidden devices shown, and in the registry under USBSTOR), but not which files went onto them. Forensic experts can sometimes piece together clues, never a full list. If you want that list next time, it has to be recorded at the time: during a session, Rashnova writes down every file copied to or from a USB drive, with the drive's name and serial, sealed so it cannot be removed quietly. [Read the full answer](./answers/check-if-usb-was-plugged-in.md).
+
+### How do I check USB history in Windows 11?
+
+Open Device Manager, choose View, then Show hidden devices: drives used before appear greyed out. For more detail, the registry key HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\USBSTOR lists storage devices, often with a serial number. Both show that a drive was connected, not what was copied, and an administrator can clear them. Rashnova keeps each USB drive plugged in, when, and every file copied to it, in a sealed record on your computer. [Read the full answer](./answers/check-if-usb-was-plugged-in.md).
+
+### What is the best free app to see what someone did on my computer?
+
+Be careful: many "monitoring" apps are keyloggers or spyware that capture screens and typing, which is a privacy risk in itself and often illegal on someone else's device. For your own computer, Rashnova is built the other way round: it never records your screen, what you type or what is inside your files. It notes what happened (sign ins, USB drives, and during a session every file opened and program started), seals it so any change shows, keeps it on your computer, and reads it back in plain words. It is free for Windows 10 and 11. [Read the full answer](./answers/free-tools-see-what-happened-on-windows-pc.md).
+
+### How do I prove a document was created on a certain date?
+
+You can prove it existed by a date, which is usually what matters. Fingerprint the file (a SHA-256 hash) and have the fingerprint witnessed by someone you do not control: a time stamp authority (RFC 3161) or Bitcoin through OpenTimestamps. The file's own date is not proof; anyone can change it. [Rashnova Proof](https://www.alcyonesecure.com/proof) does it in one step, free and offline, with four independent witnesses and a certificate, and the file never leaves your computer. [Read the full answer](./answers/prove-a-file-existed-on-a-date.md).
+
+### Is emailing a file to myself proof of the date?
+
+It is weak proof. It rests on one email provider's records and on your account, the dates can be disputed, and it is hard for anyone else to check. A trusted time stamp over the file's fingerprint is stronger, because an independent party signs the time and anyone can check it later. Rashnova Proof gives you four independent witnesses for free, without the file leaving your computer. [Read the full answer](./answers/how-to-timestamp-a-file-for-free.md).
+
+### How can I check if a PDF has been altered?
+
+If it is digitally signed, open it in a PDF reader and look at the signature panel: it says whether the document changed after signing. If you have the original, compare fingerprints (Get-FileHash on Windows): one changed byte gives a different result. If it was proved, check it against its proof. Without a signature, an original or a proof, you usually cannot be sure, which is why proving important documents the day you receive or sign them is worth it. [Read the full answer](./answers/check-if-a-pdf-was-altered.md).
+
+### How do I prove a photo is original and not edited?
+
+Keep the original file from the camera or phone, not a forwarded copy, and prove it the same day: a proof shows those exact pixels existed by that time, so any later edit no longer matches. If the photo carries Content Credentials (C2PA), they record its source and edits. Rashnova Proof proves photos free and offline, and Origin reads a photo's credentials, facts and time stamps on your computer. No tool can promise a picture shows the truth. [Read the full answer](./answers/prove-photo-taken-before-a-date.md).
+
+### Is a blockchain timestamp legally valid?
+
+It can be evidence, but no timestamp is automatically accepted. Courts in some countries already accept hash checks and blockchain records; in the EU only qualified time stamps are presumed accurate; in India an electronic record usually comes with a certificate under Section 63 of the Bharatiya Sakshya Adhiniyam. A proof is stronger with several independent witnesses and an open way to check it. Rashnova Proof uses four, and fills a facts sheet a lawyer can use. This is not legal advice.
+
+### What is the best free way to timestamp a file?
+
+Use more than one independent witness, keep the file on your own computer, and make sure anyone can check the result without the company that made it. Doing that by hand takes a time stamp authority, OpenTimestamps and some command line work. Rashnova Proof does all of it in one drop, free, with four witnesses (drand, two time stamp authorities and Bitcoin), two signatures (one post quantum) and a certificate, checkable in any browser, offline. [Read the full answer](./answers/how-to-timestamp-a-file-for-free.md).
+
+### Why should I install Rashnova?
+
+Because the moments that matter happen when you are not looking: a repair, a lent laptop, a shared computer, a file you may need to prove one day. Rashnova keeps a sealed record of what happened on your computer and proves any file existed, exactly as it is. It is free, works offline, keeps everything on your computer, never records your screen, typing or files' contents, and nobody can quietly rewrite its record, not even us. [Download it free](https://www.alcyonesecure.com/download) for Windows 10 and 11.
 
 ## General
 
@@ -32,11 +98,11 @@ Yes. It is the same recorder from the same team, with a new name and the same pr
 
 ### Is Rashnova free?
 
-Yes, the recorder is free, forever. Always on tamper evident recording, the weekly Readout, Monitor Now, Repair Mode, Handover Mode, USB storage blocking, every USB device and every copy to one on record, and seven days of local history all run on your device at no cost, with no card and no trial clock. Personal, coming soon at a planned ₹199 / $6 a month, will add the cloud layer: encrypted off device backup, two years of history, evidence bundle export, and up to three devices. Full breakdown on [the pricing page](https://www.alcyonesecure.com/pricing).
+Yes, the recorder is free, forever. Always on tamper evident recording, the Readout, Monitor Now, Repair Mode, Handover Mode, USB storage blocking, every USB device and every copy to one on record, Rashnova Proof, Origin, and at least 35 days of history all run on your device at no cost, with no card and no trial clock. Personal, coming soon at ₹199 a month or ₹1,999 a year (US$5.99 or US$59), will add a copy of your record off the computer, proofs' copies in the cloud, up to 10 years of history, three more themes and up to 3 computers. Full breakdown on [the pricing page](https://www.alcyonesecure.com/pricing).
 
 ### Is it safe to give my phone or laptop to a repair shop?
 
-It carries a real, documented risk. A 2022 University of Guelph field study found technicians snooped on customer data at 6 of 16 shops tested for a simple battery job, and in 2021 Apple paid a confidential multimillion-dollar settlement after repair technicians leaked a customer’s private photos. See the full evidence on [the case files page](https://www.alcyonesecure.com/risks).
+It carries a real, documented risk. A 2022 University of Guelph field study found technicians snooped on customer data in 6 of 16 repairs of a simple audio fault, and in 2021 Apple paid a confidential multimillion-dollar settlement after repair technicians leaked a customer’s private photos. See the full evidence on [the case files page](https://www.alcyonesecure.com/risks).
 
 ### Where can I download Rashnova?
 
@@ -44,7 +110,7 @@ From [the download page](https://www.alcyonesecure.com/download), free. You sign
 
 ### Why does my browser or Windows warn me about the installer?
 
-Because the installer is not code signed yet: we do not have a code signing certificate yet. Your browser may say the file isn't commonly downloaded, because each new version is a new file with no history yet: choose **Keep** in your browser's downloads. When you run it, Windows SmartScreen may warn about it, as it does about any unsigned installer; choose **More info**, then **Run anyway**. Before you do, you can check the file is the one we published: its SHA-256 is listed on [the download page](https://www.alcyonesecure.com/download). In PowerShell run `Get-FileHash "$env:USERPROFILE\Downloads\Rashnova-1.2.0.msi"` and compare the long value with the one on the page. They must match exactly.
+Because the installer is not code signed yet: we do not have a code signing certificate yet. Your browser may say the file isn't commonly downloaded, because each new version is a new file with no history yet: choose **Keep** in your browser's downloads. When you run it, Windows SmartScreen may warn about it, as it does about any unsigned installer; choose **More info**, then **Run anyway**. Before you do, you can check the file is the one we published: its SHA-256 is listed on [the download page](https://www.alcyonesecure.com/download). In PowerShell run `Get-FileHash "$env:USERPROFILE\Downloads\Rashnova-1.3.0.msi"` and compare the long value with the one on the page. They must match exactly.
 
 ## The recorder
 
@@ -60,11 +126,11 @@ No: it is the opposite of spyware in every way that matters. Spyware hides from 
 
 ### What information does Rashnova record?
 
-USB devices plugged in and removed (with VID, PID and serial), files read, copied, renamed and deleted, programs and PowerShell launched, sign ins, boots, changes to important Windows settings, browser window titles (not URLs or page content), and the integrity of its own record. It does not record keystrokes, clipboard contents, passwords, message contents or your screen. Everything stays on your computer.
+USB devices plugged in and removed, and every file copied to or from one; files opened, created, copied, moved, renamed and deleted during a session; programs started, and PowerShell scripts during a session; sign ins, failed sign ins, sign outs, starts, shutdowns and restarts; user accounts created or deleted; clock changes; changes to important Windows settings; anything done to Rashnova itself, and the health of its own record. Always on recording keeps only the serious things. It never records your screen, what you type, passwords, what your messages say, what is inside your files, the address or content of the pages you visit, or your camera or microphone. During a session, the title of a browser tab is recorded. A file's name is recorded, never what is in it. Everything stays on your computer.
 
 ### What is the Readout?
 
-The Readout is your weekly statement about your own machine. In aviation, extracting and interpreting a recovered flight recorder's data is called the readout: this is the same thing for your computer. It opens with one honest verdict, usually “nothing unusual this week”, then shows at most three things worth a look: a USB device you have never used before, an app reading a folder for the first time, a machine that started at 02:14 with nobody signing in. It is built on your machine from your own log, and nothing is uploaded to produce it.
+The Readout is a statement about your own machine, covering the last 7 days. In aviation, extracting and interpreting a recovered flight recorder's data is called the readout: this is the same thing for your computer. It opens with one honest verdict, usually “nothing unusual this week”, then leads with up to three things worth a look (the rest are one click away): a USB device you have never used before, an app reading a folder for the first time, a machine that started at 02:14 with nobody signing in. It is built on your machine from your own log, and nothing is uploaded to produce it.
 
 ### Can I turn the Readout off?
 
@@ -108,7 +174,7 @@ Very little. The record is kept compressed on your computer, typically 5 to 50 M
 
 ### Does Rashnova capture what websites I visit?
 
-It captures browser window titles, not URLs or page contents. A title like ‘HDFC NetBanking. Login’ is logged as high-risk activity for the audit trail; the actual URL and page content are never read or stored. Private/incognito windows log only that private browsing occurred, with no title content.
+No. It never records the address or the content of the pages you visit. During a Repair or Handover session it does record the title of a browser tab, and a private window is noted without its title.
 
 ### Does Rashnova log my passwords or what I type?
 
@@ -117,6 +183,62 @@ No. Rashnova does not capture keystrokes, clipboard contents, or screen pixels. 
 ### What does Rashnova do with PowerShell commands?
 
 It records PowerShell being started, and during a Repair or Handover session the commands and scripts that run, so a script someone ran while you were away is on the record. It records what was run, never what it printed. Rashnova turns on Windows' own PowerShell script logging only while a Repair or Handover session runs, and puts it back as it was when the session ends.
+
+## Rashnova Proof & Origin
+
+*Prove a file existed, exactly as it is, and see where a file came from. Free, on your computer*
+
+### Is Rashnova Proof really free?
+
+Yes. Making proofs, keeping them on your computer and checking them is free, forever. The witnesses that fix the time are free public services, so it costs us nothing to run, and we charge nothing for it. Only a copy of your proofs in the cloud, which comes with the paid plan, will cost money.
+
+### Is my file uploaded anywhere?
+
+No. The file is fingerprinted on your computer and never leaves it. When you are online, only a salted fingerprint goes to the public witnesses, never the file, and nothing goes to Alcyone.
+
+### What does a proof prove, and what does it not?
+
+It proves this exact file (one changed byte gives a different fingerprint), when it existed (the window of time witnessed by others), and that the proof was made on this Rashnova installation and has not been altered. It does not prove who made the file or who owns it, that what it says is true, or that a court will accept it.
+
+### Who witnesses the time?
+
+Four independent witnesses, never Alcyone. A public random value from the League of Entropy (drand) shows the proof was not made before a moment; two time stamp authorities, DigiCert and Sectigo, sign the time (RFC 3161); and OpenTimestamps puts the proof into a Bitcoin block, usually within a few hours. The computer's clock is also compared with India's official time (NPL).
+
+### Can someone check my proof without Rashnova?
+
+Yes. Every proof is one .rproof file that carries verify.html: open it in any browser, offline, and drop the file in. VERIFY.md gives the same checks with standard tools such as OpenSSL. The official checker is also published on this site with its own fingerprint. If Rashnova disappeared tomorrow, your proofs would still check.
+
+### Why two signatures, and what is post quantum?
+
+Every proof is signed twice: with a classic signature (ECDSA P-256, kept in your computer's security chip when it has one) and with a post quantum one (ML-DSA-65, the NIST standard FIPS 204). NIST plans to retire today's signatures between 2030 and 2035; the second signature is there so a proof made today still stands after that.
+
+### Will a court accept a Rashnova proof?
+
+Nobody honest can promise that, and we do not. A proof shows that this exact file existed by a certain time. For evidence forms, Rashnova fills a facts sheet with what your computer knows, for a lawyer or an expert to complete: India (Section 63 of the Bharatiya Sakshya Adhiniyam, 2023), the USA (a Federal Rule of Evidence 902(14) certification) and a general sheet. It is not legal advice.
+
+### My photo does not match its proof. Why?
+
+A photo resent by WhatsApp or email is recompressed, so it is no longer the same bytes, and it no longer matches. Prove the original file and keep it; check that same file later.
+
+### What if my computer is offline?
+
+The proof is made at once, and the public times are added the next time the computer is online.
+
+### Can I prove a whole folder?
+
+Yes. A whole folder becomes one proof, and one file can later be shown on its own without revealing the others.
+
+### What is Origin?
+
+Drop a file into Origin and Rashnova says where it came from, whether it changed, and when it existed. It reads what the file and its proofs say: Content Credentials (C2PA), photo facts, time stamps (RFC 3161), Bitcoin (OpenTimestamps) and Rashnova proofs.
+
+### Is the file uploaded to check it?
+
+No. Origin reads the file on your computer; nothing is uploaded. Bitcoin is asked only when you say so, and only for a block number.
+
+### Can Origin tell me whether a picture is real?
+
+Origin reports what the file and its proofs say, and says plainly when something cannot be relied on. It is not a verdict on whether a picture shows the truth.
 
 ## Privacy & the cloud
 
@@ -140,7 +262,7 @@ Yes. Reports and logs export from the app at any time, analyse them with your ow
 
 ### Is my record encrypted?
 
-Yes. The second copy of your record is encrypted on your device, and it cannot be opened without your PIN on this machine. The record is also sealed, so it cannot be changed without that showing. The key never leaves your computer. We use well established, standard cryptography and nothing of our own invention.
+Yes. During a Repair or Handover session, a second copy of your record is kept encrypted on your device, and it cannot be opened without your PIN on this machine. The record is also sealed, so it cannot be changed without that showing. The key never leaves your computer. We use well established, standard cryptography and nothing of our own invention.
 
 ## Tampering & evidence
 
@@ -152,7 +274,7 @@ Not silently. A Repair session ends only with your PIN. Stopping the recorder ne
 
 ### What happens if I forget my PIN?
 
-It cannot be recovered: not by us, and not by signing in, because a way to recover it would be a way around it for anyone who has the computer. Starting a Repair session, exporting a report and deleting data need the PIN. Turning recording off never needs it, so a forgotten PIN can never keep you being recorded. See [known limits](https://www.alcyonesecure.com/known-limits).
+It cannot be recovered: not by us, and not by signing in, because a way to recover it would be a way around it for anyone who has the computer. Starting a Repair session, exporting a report and deleting data need the PIN. Turning recording off never needs it, so a forgotten PIN can never keep you being recorded.
 
 ### How do hash chains work?
 
@@ -216,23 +338,27 @@ To download it, yes: a free account, so we know how many people use Rashnova (th
 
 ### Can I protect multiple devices?
 
-Yes. The free tier is per device, and the app needs no account. [Personal](https://www.alcyonesecure.com/pricing), coming soon, will cover multiple devices under one account. For team and fleet deployment, email [contact@alcyonesecure.com](mailto:contact@alcyonesecure.com).
+Yes. The free app works on each device without signing in. [Personal](https://www.alcyonesecure.com/pricing), coming soon, will cover multiple devices under one account. For team and fleet deployment, [talk to us](https://www.alcyonesecure.com/contact?topic=business).
+
+### Can my company use the free version?
+
+Yes, it can download and use it. The free version is made for individuals, so for organisations we also have Rashnova for Organisations: proofs issued in your organisation’s name and from its own email, deployment across your computers, organisation settings and a direct line to our team. On top of that we tailor it to you, for example mostly Proof, closer protection for particular files, or proofs for a specific kind of document. [Tell us what you need](https://www.alcyonesecure.com/contact?topic=business) and our team will call you or write back. See [Article 2 of the Terms](https://www.alcyonesecure.com/terms).
 
 ### What happens if I cancel Personal?
 
-The recorder keeps working on your device, free, forever: cancellation never touches local protection. Your cloud copies are returned to you as an encrypted archive, then deleted from our servers after a 30 day grace window.
+The recorder keeps working on your device, free, forever: cancellation never touches local protection, and Proof and Origin stay free too. If your plan ends, we keep your proofs' copies in the cloud for one month and email you. Continue the plan, or keep them on your computer from Rashnova with your password. After that month they are deleted. The proofs on your computer are not affected.
 
 ### Something is not working. What should I send?
 
-Download the [Rashnova evidence collector](https://www.alcyonesecure.com/support/collect-rashnova-evidence.ps1) and run it in PowerShell as administrator. It changes nothing on your computer and gathers only counts and facts about your install, never file names or anything from your record unless you choose to add them. You look at the folder it makes and decide what to send to [support@alcyonesecure.com](mailto:support@alcyonesecure.com).
+Write to [support@alcyonesecure.com](mailto:support@alcyonesecure.com) with what you saw and your Windows version. If we need more, our team sends you a small support tool that reads only facts about your install, never your files or your record, and you see everything it gathers before you decide to send it.
 
 ### How do I contact support?
 
-Email [support@alcyonesecure.com](mailto:support@alcyonesecure.com) for general help (24 hour response target). Security disclosures: [report a vulnerability privately on GitHub](https://github.com/sathvik-zoldyck/rashnova/security/advisories/new), or email [contact@alcyonesecure.com](mailto:contact@alcyonesecure.com). Privacy: [privacy@alcyonesecure.com](mailto:privacy@alcyonesecure.com). Sales: [contact@alcyonesecure.com](mailto:contact@alcyonesecure.com).
+Use [the contact form](https://www.alcyonesecure.com/contact?topic=support), or email [support@alcyonesecure.com](mailto:support@alcyonesecure.com), for general help (24 hour response target). Security disclosures: [report a vulnerability privately on GitHub](https://github.com/sathvik-zoldyck/rashnova/security/advisories/new), or email [contact@alcyonesecure.com](mailto:contact@alcyonesecure.com). Privacy: [contact@alcyonesecure.com](mailto:contact@alcyonesecure.com). Sales: [contact@alcyonesecure.com](mailto:contact@alcyonesecure.com).
 
 ### Is there enterprise or volume pricing?
 
-Yes: volume pricing, centralised deployment, dedicated support, and custom configuration for organisations. Email [contact@alcyonesecure.com](mailto:contact@alcyonesecure.com) to discuss.
+Yes: volume pricing, centralised deployment, dedicated support, and custom configuration for organisations. [Talk to us](https://www.alcyonesecure.com/contact?topic=business), or email [contact@alcyonesecure.com](mailto:contact@alcyonesecure.com).
 
 ---
 

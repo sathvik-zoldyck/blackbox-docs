@@ -22,7 +22,7 @@ Tamper evidence proves a record was not altered. It does not, by itself, prove t
 
 ## Where Rashnova fits
 
-Rashnova produces this kind of record. It logs file access, USB device arrivals with vendor and serial identifiers, logins and process execution with command lines, and seals each entry into a chain as it is written. Reports export as PDF, web page or spreadsheet today, and evidence bundles that a third party can check offline are coming. An encrypted off device copy is coming with the paid plan, which matters because a local only record can be destroyed along with the device. As above: it has to be running before the events you want to prove.
+Rashnova produces this kind of record. It logs file access, USB device arrivals with vendor and serial identifiers, logins and process execution with command lines, and seals each entry into a chain as it is written. Reports export as PDF or web page, with a spreadsheet extract for your own use, and Rashnova Proof can prove a file existed, exactly as it is, in a package anyone can check offline. An encrypted copy off the device is coming with the paid plan, which matters because a local only record can be destroyed along with the device. As above: it has to be running before the events you want to prove.
 
 **Related:** [How do I know if a repair shop copied my data?](./how-to-know-if-repair-shop-copied-data.md) · [How do I check if a USB drive was plugged into my PC?](./check-if-usb-was-plugged-in.md) · [How do I protect my laptop before giving it for repair?](./protect-laptop-before-repair.md) · [What is an evidence layer in cybersecurity?](./what-is-an-evidence-layer.md)
 

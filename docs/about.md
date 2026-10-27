@@ -150,7 +150,8 @@ a device, not for whoever is temporarily holding it.
 | A new name | 2026 | Black Box becomes **Rashnova**. |
 | The evidence layer | 2026, version 1.1 | Always on recording when you switch it on, the weekly Readout, Repair Mode with a sealed report, every USB device and every copy to one on record. No account needed in the app. |
 | Hand it over, watched | October 2026, version 1.2 | Handover Mode, USB storage blocking, restarts no longer counted as tampering, Start with Windows, and one installer that brings everything it needs. |
-| Next | In development | The cloud layer: an encrypted copy that survives a wiped machine, and optional location on the record. Rashnova Lite, for Android. |
+| Rashnova Proof and Origin | 25 October 2026, version 1.3 | Prove a file existed, exactly as it is, free and offline. See where a file came from. Repair Mode records far more, and a calmer, new look for the whole app. |
+| Next | In development | Announced when it ships. |
 
 Independent, built in India, aligned with the DPDP Act 2023, GDPR and CCPA.
 

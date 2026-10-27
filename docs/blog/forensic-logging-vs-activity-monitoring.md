@@ -36,7 +36,7 @@ The moment a security incident becomes a legal matter. Insider data theft, emplo
 - Documented, reproducible verification by any third party.
 - Public threat model.
 
-[Rashnova](https://www.alcyonesecure.com/products/rashnova) is built to meet these: its record is sealed entry by entry, kept on your device, and checkable. An offline verifier for exported evidence is coming with evidence bundles.
+[Rashnova](https://www.alcyonesecure.com/products/rashnova) is built to meet these: its record is sealed entry by entry, kept on your device, and checkable. Every Rashnova proof already carries its own checker, which works in any browser, offline.
 
 ## Questions
 

@@ -16,7 +16,7 @@ File system auditing through Group Policy or auditpol is the closest thing to a 
 
 On a phone, this problem is considered solved. iOS has an App Privacy Report showing which apps accessed your photos, microphone and location over the past seven days, in plain language, on the device. Android has similar visibility.
 
-Windows never got an equivalent. The data is there, the operating system's own Event Tracing infrastructure is what professional tools read, but nothing collects it into something an ordinary owner can read on a Sunday afternoon.
+Windows never got an equivalent. The data is there, and Windows itself notices it, but nothing collects it into something an ordinary owner can read on a Sunday afternoon.
 
 ## Where Rashnova fits
 

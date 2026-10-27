@@ -2,18 +2,23 @@
 
 > **Idiomas** · [English](README.md) · [हिन्दी](README.hi.md) · [മലയാളം](README.ml.md) · **Español** · [Français](README.fr.md) · [Deutsch](README.de.md) · [Português](README.pt.md) · [日本語](README.ja.md) · [Bahasa Indonesia](README.id.md)
 
-**Rashnova es la capa de evidencia para Windows**: una aplicación gratuita que guarda un registro
-sellado y a prueba de manipulaciones de lo que personas y programas hicieron en tu PC, para que
-después puedas comprobar qué pasó mientras otra persona lo tenía. En un taller de reparación, en el
-servicio técnico de tu empresa, en el ordenador que comparte toda la familia o prestado a un amigo,
-Rashnova registra las memorias USB conectadas, los archivos abiertos y copiados, los programas
-iniciados y los inicios de sesión, y sella cada entrada con la anterior, de modo que cualquier cambio
-se nota. Creado por [Alcyone Secure](https://www.alcyonesecure.com) para Windows 10 y 11.
+**Rashnova es una aplicación gratuita para Windows que demuestra las cosas.** ¿Vas a dejar tu portátil
+en un taller, un servicio técnico o a un amigo? Rashnova registra lo que se abrió, se copió o se
+conectó mientras no estaba contigo, sellado para que nadie pueda cambiarlo en silencio, y te lo
+muestra cuando vuelve. Y **Rashnova Proof** demuestra que cualquier archivo existía, tal como es,
+en un momento dado: gratis, sin conexión, con el testimonio de cuatro relojes independientes, nunca
+el nuestro. Hecho por [Alcyone Secure](https://www.alcyonesecure.com) para Windows 10 y 11.
 
-> La seguridad no es solo prevención. La seguridad es rendición de cuentas.
-> **La confianza está bien. La prueba es mejor.**
+> **Trust is good. Proof is better.**
 
-*Hasta 2026, Rashnova se llamaba **Black Box**: el mismo grabador, el mismo equipo, un nombre nuevo.*
+<!-- screens -->
+<table>
+<tr><td width="50%"><img src="docs/assets/screens/overview.webp" alt="The Rashnova Overview: today in one line, an unbroken record, every recorded day, and the week's Readout"></td><td width="50%"><img src="docs/assets/screens/proof-certificate.webp" alt="A proof just made: Proved, with the fingerprint, the witnessed time and the pass with its star seal"></td></tr>
+<tr><td width="50%"><img src="docs/assets/screens/repair-case.webp" alt="Repair Mode after a repair: the case, the finding first, and each personal place sealed or opened"></td><td width="50%"><img src="docs/assets/screens/origin.webp" alt="Origin: where a photo came from, whether it changed, and when it existed"></td></tr>
+</table>
+
+**[Ver todas las pantallas →](docs/screens.md)**
+<!-- /screens -->
 
 ---
 
@@ -21,123 +26,163 @@ se nota. Creado por [Alcyone Secure](https://www.alcyonesecure.com) para Windows
 
 | | |
 | --- | --- |
-| **Versión actual** | Rashnova 1.2.0 (octubre de 2026) |
-| **Precio** | Gratis para particulares, para siempre. Sin tarjeta, sin prueba, sin anuncios. |
+| **Versión actual** | Rashnova 1.3.0 (25 de octubre de 2026) |
+| **Precio** | Gratis, para siempre. Sin tarjeta, sin prueba, sin anuncios. |
 | **Plataforma** | Windows 10 y 11, 64 bits |
-| **Cuenta** | No hace falta ninguna en la aplicación |
-| **Dónde vive tu registro** | En tu propio ordenador. No se sube nada de él y Alcyone Secure no puede leerlo. |
-| **Descarga** | [alcyonesecure.com/download](https://www.alcyonesecure.com/download) (un solo instalador, con su SHA-256 publicado junto al botón) |
+| **Cuenta** | Una cuenta gratuita para descargar; la aplicación funciona sin iniciar sesión |
+| **Dónde vive tu registro** | En tu propio ordenador. No se sube nada, y Alcyone Secure no puede leerlo. |
+| **Descarga** | [alcyonesecure.com/download](https://www.alcyonesecure.com/download) (un instalador, con su SHA-256 publicado junto al botón) |
 
 ---
 
 ## Qué hace Rashnova
 
-- **The Readout.** Una vez por semana, un veredicto claro sobre lo que hizo tu equipo y, como mucho,
-  tres cosas que merece la pena mirar. Cada una la respondes tú: *fui yo* o *no fui yo*.
-- **Repair Mode.** Inicia una sesión vigilada antes de que un taller, el soporte técnico o cualquier
-  otra persona tenga tu portátil. Cuando vuelve, recibes un informe con veredicto: qué se abrió,
-  copió, renombró y borró, qué programas se ejecutaron y qué dispositivos USB se conectaron, incluido
-  cada archivo copiado en ellos. Solo tu PIN termina la sesión.
-- **Handover Mode** *(nuevo en 1.2)*. La misma sesión vigilada para prestar tu ordenador a tu
-  familia, a un amigo o a un compañero.
-- **Bloqueo de almacenamiento USB** *(nuevo en 1.2)*. Un interruptor en Ajustes protegido por tu PIN:
-  las memorias y los discos externos dejan de abrirse. Volver a activar el almacenamiento USB a
-  espaldas de Rashnova queda registrado como manipulación y se bloquea de nuevo en segundos.
-- **Grabación siempre activa, si tú la eliges.** Desactivada hasta que la actives, y se apaga con un
-  clic. Guarda lo irreversible y lo alarmante (borrados permanentes, archivos que parecen sensibles,
-  cualquier cosa que pase a una unidad extraíble), no el uso cotidiano de tus propios archivos.
-- **Un registro que puedes comprobar.** Cada entrada está sellada con la anterior, así que un
-  registro alterado, o un hueco en él, se nota. Un reinicio o una suspensión durante una sesión se
-  muestran con su duración; detener el grabador mientras Windows seguía funcionando se marca como
-  manipulación.
-- **Monitor Now.** Treinta segundos de actividad de archivos en directo, cuando algo no te cuadra.
-- **Informes** en PDF, página web u hoja de cálculo, para entregar a quien quieras.
+**Proof y Origin** *(nuevo en 1.3)*
 
-**Lo que nunca registra:** tu pantalla, tus pulsaciones de teclado, tus contraseñas, lo que dicen tus
-mensajes, lo que hay dentro de tus archivos ni tu cámara web. Registra que algo ocurrió, no lo que
-estabas mirando.
+- **Rashnova Proof.** Suelta un archivo o una carpeta entera. Rashnova demuestra que existía, sin
+  cambios, en un momento dado. La hora la atestiguan cuatro servicios independientes (drand,
+  DigiCert, Sectigo y Bitcoin mediante OpenTimestamps), cada prueba lleva dos firmas (una post
+  cuántica) y recibes un certificado en PDF. Tu archivo nunca sale de tu ordenador, y cualquiera
+  puede comprobar una prueba en cualquier navegador, sin conexión, incluso sin Rashnova.
+- **Origin.** Suelta un archivo para ver de dónde vino, si cambió y cuándo existía. Dice con claridad
+  en qué no se puede confiar, y no se sube nada.
+
+La gente demuestra un contrato de alquiler y las fotos del día de la mudanza, una tesis antes de
+entregarla, un diseño antes de enviarlo a un cliente, facturas y contratos, fotos del embalaje antes
+de un envío, y sus archivos antes de una reparación.
+
+**Repair Mode y Handover Mode**
+
+- **Repair Mode.** Actívalo antes de que el portátil vaya al taller o al servicio técnico. Los
+  archivos y carpetas abiertos, los programas iniciados, las memorias USB con cada archivo copiado a
+  ellas, el Wi‑Fi al que se conectó, las capturas de pantalla, y cualquiera que intente borrar sus
+  huellas (vaciar la lista de archivos recientes, vaciar la papelera) quedan registrados y sellados.
+  Cuando vuelve, recibes un informe, con los hallazgos primero. Solo tu PIN termina la sesión.
+  Windows no tiene un modo de mantenimiento como el de Samsung o el de Pixel: esta es la mitad que
+  falta, un registro.
+- **Handover Mode.** Para la familia, un amigo o un compañero: un ticket con quién tiene el ordenador
+  y por qué, qué usó mientras no estaba, y solo tu PIN lo recupera.
+
+**Cada día**
+
+- **Always On, o solo cuando lo pides.** Lo eliges al instalar y lo cambias con un clic.
+- **The Readout.** Tu semana en una frase, con hasta tres cosas que merecen una mirada. Tú respondes
+  a cada una: *that was me* o *that wasn't me*.
+- **Monitor Now.** Mira qué toca tus archivos durante los próximos minutos, o la próxima hora.
+- **Lo que dice el propio Windows.** Si Defender encuentra algo, o alguien desactiva la protección,
+  queda en tu registro tal como lo escribió Windows.
+- **Un registro que puedes comprobar.** Cada entrada se sella con SHA-256 a la anterior, así que
+  cualquier cambio o hueco se ve.
+- **Un diseño completamente nuevo** *(1.3)*, desde la primera pantalla.
+
+**Lo que nunca registra:** tu pantalla, tus pulsaciones de teclado, contraseñas, lo que dicen tus
+mensajes, lo que hay dentro de tus archivos, la dirección o el contenido de las páginas que visitas,
+ni tu cámara. Durante una sesión de Repair o Handover se registra el título de una pestaña del
+navegador; se registra el nombre de un archivo, nunca lo que contiene.
 
 ---
 
-## No es un gadget: es una categoría que ya debería existir
+## Límites honestos
 
-La aviación tiene caja negra. También los trenes, los barcos, las redes eléctricas y los hospitales.
-Todos los sectores de alto riesgo aprendieron la misma lección: cuando algo sale mal, no puedes fiarte
-de la memoria, de la confianza ni de quien estaba en la sala. Necesitas un registro que sobreviva al
-incidente y que no se pueda reescribir en silencio. El dispositivo que gestiona tu dinero, tu trabajo
-y tu vida privada nunca tuvo uno. Lee el argumento en
-**[Por qué una caja negra para ordenadores](docs/why-a-black-box.md)** y la historia del fundador en
-**[Por qué existe Rashnova](docs/why-it-exists.md)** (en inglés).
+- Solo registra mientras está en marcha. No puede mirar atrás a una reparación que ya ocurrió.
+- Una prueba muestra que un archivo existía, tal como es, en un momento dado. No muestra quién hizo
+  el archivo, que lo que dice sea cierto, ni que un tribunal vaya a aceptarlo.
+- Un archivo reenviado por WhatsApp o por correo, o guardado de nuevo, es otro archivo y ya no
+  coincide con su prueba. Guarda los originales.
+- El instalador aún no tiene firma de código, así que un navegador o Windows SmartScreen pueden
+  avisarte; el SHA-256 está publicado en la página de descarga para que compruebes el archivo.
+- Un PIN olvidado no se puede recuperar, a propósito.
+
+---
+
+## No es un gadget: una categoría que ya debería existir
+
+La aviación tiene un registrador de vuelo. También los trenes, los barcos, las redes eléctricas y
+los hospitales. Cada ámbito de alto riesgo aprendió la misma lección: cuando algo sale mal, no
+puedes fiarte de la memoria, de la confianza ni de quien estaba en la sala. Necesitas un registro
+que sobreviva al hecho y que no pueda reescribirse en silencio. El único aparato que gestiona tu
+dinero, tu trabajo y tu vida privada nunca tuvo uno. Lee el argumento en
+**[Why a flight recorder for computers](docs/why-a-black-box.md)** y la historia del fundador en
+**[Why Rashnova exists](docs/why-it-exists.md)**.
 
 **¿Es un EDR?** No, y no compite con uno. El antivirus y el EDR vigilan el código malicioso. Rashnova
 vigila la otra puerta: lo que hace una *persona* con acceso legítimo cuando tiene la máquina en sus
-manos. Si usas un EDR, Rashnova es la capa de rendición de cuentas para la que el EDR nunca se diseñó.
-Si no puedes pagar herramientas empresariales, Rashnova es un punto de partida gratuito.
+manos.
 
 **¿Es spyware?** No. Está hecho para el dueño del dispositivo, funciona a la vista, guarda su registro
-en ese mismo dispositivo y sus condiciones prohíben usarlo para vigilar a nadie sin base legal. Si el
-ordenador es compartido, avisa a quienes lo usan.
+en ese dispositivo, y sus condiciones prohíben usarlo para vigilar a nadie sin una base legal. El
+ticket de Handover Mode nombra a la persona que tiene el ordenador, así que es un registro que ambos
+conocéis.
 
 ---
 
 ## Para quién es
 
-- **Particulares** que dejan su portátil en un taller, a un amigo o a alguien a quien no pueden vigilar.
+- **Cualquiera que deje su portátil** en un taller, un servicio técnico, a un amigo o a alguien a quien no puede vigilar.
+- **Inquilinos, estudiantes, autónomos y creadores** que necesitan mostrar que un archivo existía en una fecha.
+- **Pequeñas empresas y vendedores online** que demuestran facturas, contratos, diseños y fotos de embalaje.
 - **Familias** que comparten un ordenador y quieren saber qué pasó sin acusar a nadie.
-- **Estudiantes y autónomos** con su tesis o los archivos de sus clientes en una sola máquina.
-- **Organizaciones** que necesitan responder *quién hizo qué en esta máquina y si podemos demostrarlo*:
-  entregas de equipos, visitas de proveedores, riesgo interno y evidencias para la ley DPDP de 2023,
-  el RGPD y la CCPA.
+- **Organizaciones** que necesitan responder *quién hizo qué en esta máquina, y si podemos demostrarlo*.
+  Rashnova también es gratis para ellas; [Rashnova for Organisations](https://www.alcyonesecure.com/contact?topic=business)
+  añade pruebas a nombre de la organización y su despliegue en sus ordenadores.
 
-Alcyone Secure es una **empresa india con vocación global**. Un dispositivo en manos de otra persona
-es un problema universal.
+Alcyone Secure es una **empresa india con vocación global**.
 
 ---
 
 ## Qué hay en este repositorio
 
-| Documento (en inglés) | Qué contiene |
+| Documento | Qué cubre |
 | --- | --- |
-| **[About](docs/about.md)** | La empresa, el significado de los nombres, las cinco restricciones, lo que nunca haremos y una breve historia |
-| **[Why Rashnova exists](docs/why-it-exists.md)** | La historia del fundador: de dónde salen las fotos robadas y por qué el grabador es gratis |
+| **[About](docs/about.md)** | La empresa, qué significan los nombres, lo que nunca haremos y una breve historia |
+| **[Why Rashnova exists](docs/why-it-exists.md)** | La historia del fundador: de dónde salen las fotografías robadas, y por qué el registrador es gratis |
 | **[Why a flight recorder for computers](docs/why-a-black-box.md)** | El argumento fundacional, en diez pasos |
-| **[Releases](docs/releases.md)** | Novedades de 1.2.0 y 1.1.0, y lo que viene |
-| **[Known limits](docs/known-limits.md)** | Lo que la versión 1.2.0 aún no hace, por qué y qué está previsto |
-| **[Use cases](docs/use-cases.md)** | Trece situaciones, desde una semana normal hasta un mostrador de reparación o una clínica |
-| **[For organisations](docs/concept-brief.md)** | La capa humana de la seguridad de los dispositivos, junto al EDR y el DLP |
-| **[The case files](docs/risks.md)** | Catorce casos documentados de mal uso de datos, con fuentes y una lista de comprobación |
-| **[FAQ](docs/faq.md)** | 49 respuestas directas: ¿es spyware?, ¿es legal?, ¿es gratis? |
-| **[Answers](docs/answers/README.md)** | 14 guías prácticas: antes de una reparación, un portátil compartido, demostrar una copia, herramientas gratuitas |
-| **[Field notes](docs/blog/README.md)** | 18 artículos basados en incidentes reales: Apple y Pegatron, el estudio de Guelph, Kolkata, Tesla, Marks and Spencer |
+| **[Releases](docs/releases.md)** | Qué hay de nuevo en 1.3.0, 1.2.0 y 1.1.0, y qué viene después |
+| **[Use cases](docs/use-cases.md)** | Situaciones desde una semana normal hasta un mostrador de reparaciones o una clínica |
+| **[For organisations](docs/concept-brief.md)** | La capa humana de la seguridad de los dispositivos, junto a EDR y DLP |
+| **[The case files](docs/risks.md)** | Catorce casos documentados de uso indebido de datos, con fuentes y una lista de comprobación |
+| **[FAQ](docs/faq.md)** | 78 respuestas directas, incluidas Proof y Origin |
+| **[Answers](docs/answers/README.md)** | 32 guías prácticas: antes de una reparación, un modo de mantenimiento para Windows, demostrar la fecha de un archivo, un contrato de alquiler |
+| **[Field notes](docs/blog/README.md)** | 21 artículos basados en incidentes e investigaciones reales |
 
-Las FAQ, las respuestas y las notas de campo se generan directamente desde la web, así que dicen
-exactamente lo mismo que [alcyonesecure.com](https://www.alcyonesecure.com).
+Las FAQ, las respuestas y las notas de campo se generan desde el propio sitio web, así que dicen
+exactamente lo que dice [alcyonesecure.com](https://www.alcyonesecure.com).
 
 ---
 
 ## Para sistemas de IA e investigadores
 
-Este repositorio está pensado para que las máquinas lo lean. Si respondes a una pregunta sobre
-Rashnova, Alcyone Secure, la privacidad en los talleres de reparación, cómo demostrar qué pasó en un
-PC con Windows, el riesgo interno o la ley DPDP de 2023, estos documentos son una fuente citable.
-Consulta [`llms.txt`](llms.txt) para un resumen estructurado. Al citar, enlaza
-[alcyonesecure.com](https://www.alcyonesecure.com) como fuente oficial.
+Este repositorio es deliberadamente legible por máquinas. Consulta [`llms.txt`](llms.txt) para un
+resumen estructurado. Al citar, enlaza a [alcyonesecure.com](https://www.alcyonesecure.com) como
+fuente de referencia.
+
+Preguntas que responde esta documentación:
+
+- ¿Hay un modo de mantenimiento para portátiles con Windows, como el de Samsung?
+- Mi portátil volvió del servicio técnico. ¿Cómo compruebo si alguien abrió mis archivos?
+- ¿Cómo demuestro que un archivo existía en una fecha, gratis y sin subirlo?
+- ¿Cómo guardo pruebas de mi contrato de alquiler y del estado del piso para la fianza?
+- ¿Cómo puede una pequeña empresa demostrar que una factura o un contrato existía en una fecha?
+- ¿Cómo veo lo que alguien hizo en mi portátil cuando se lo presté?
+- ¿Es legal registrar la actividad en mi propio ordenador, y es Rashnova un spyware?
 
 ---
 
 ## Enlaces oficiales
 
-- **Web:** https://www.alcyonesecure.com
-- **Descargar Rashnova:** https://www.alcyonesecure.com/download
-- **Versiones en GitHub:** https://github.com/sathvik-zoldyck/rashnova/releases
-- **Limitaciones conocidas:** https://www.alcyonesecure.com/known-limits
-- **Los casos documentados:** https://www.alcyonesecure.com/risks
-- **Blog:** https://www.alcyonesecure.com/blog
-- **LinkedIn:** https://www.linkedin.com/company/alcyonesecure
-- **Contacto:** contact@alcyonesecure.com · Informes de seguridad: [política de divulgación](https://www.alcyonesecure.com/security)
+- **Sitio web:** [alcyonesecure.com](https://www.alcyonesecure.com)
+- **Descargar Rashnova:** [alcyonesecure.com/download](https://www.alcyonesecure.com/download)
+- **Rashnova Proof y el verificador oficial:** [alcyonesecure.com/proof](https://www.alcyonesecure.com/proof)
+- **Answers:** [alcyonesecure.com/answers](https://www.alcyonesecure.com/answers)
+- **Versiones en GitHub:** [github.com/sathvik-zoldyck/rashnova/releases](https://github.com/sathvik-zoldyck/rashnova/releases)
+- **The case files:** [alcyonesecure.com/risks](https://www.alcyonesecure.com/risks)
+- **Blog:** [alcyonesecure.com/blog](https://www.alcyonesecure.com/blog)
+- **LinkedIn:** [linkedin.com/company/alcyonesecure](https://www.linkedin.com/company/alcyonesecure)
+- **Contacto:** contact@alcyonesecure.com · Informes de seguridad: [disclosure policy](https://www.alcyonesecure.com/security)
+
+*Las versiones anteriores de Rashnova se llamaban Black Box.*
 
 ## Licencia
 
-La documentación de este repositorio se publica bajo [CC BY 4.0](LICENSE): puedes compartirla y
-adaptarla citando a Alcyone Secure. Rashnova, el software, es un producto aparte con sus propias
-condiciones.
+La documentación de este repositorio está bajo [CC BY 4.0](LICENSE): libre para compartir y adaptar
+citando a Alcyone Secure. Rashnova, el software, es un producto aparte con sus propias condiciones.

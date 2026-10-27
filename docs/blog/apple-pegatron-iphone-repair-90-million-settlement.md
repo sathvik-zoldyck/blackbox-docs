@@ -1,4 +1,4 @@
-# Apple paid 90 million dollars after iPhone repair technicians leaked a customer photos
+# Apple paid 90 million dollars after iPhone repair technicians leaked a customer's photos
 
 *Investigation · Apr 2026 · 9 min read*
 
@@ -41,11 +41,11 @@ There was no automated detection, no integrity alarm, no brand side monitoring t
 
 Hypothetically, the bench session that produced this incident could have been recorded. The device was powered on; the technicians were operating at a workstation that could have run a forensic flight recorder. Three artifacts would have surfaced:
 
-- A login event for the Facebook session, including timestamp and source process.
-- A burst of file open events on the camera roll directory.
-- A network egress event tied to the upload, observable at the kernel level.
+- The program that opened the photos, and exactly when.
+- A burst of file reads in the photos folder.
+- The whole window of the work, sealed so it could not be quietly changed afterwards.
 
-None of these are exotic. They are the events that [Rashnova](https://www.alcyonesecure.com/products/rashnova), our forensic recorder for Windows, captures by default. The challenge in the iPhone case is the same challenge for phone repair generally: the operating system limits how deeply a third party recorder can hook into the kernel. The class of evidence is therefore weaker on phones today than on Windows. That gap is closing slowly.
+None of these are exotic. During a Repair session, [Rashnova](https://www.alcyonesecure.com/products/rashnova) records the programs that ran and the files they opened, and seals it all, so the owner would have read it the day the computer came back. The challenge in the iPhone case is the same for phone repair generally: phones let third party apps see far less, so the evidence is weaker on phones today than on a Windows computer. That gap is closing slowly.
 
 ## What the case did not change
 
@@ -77,7 +77,7 @@ Public reporting indicates the two technicians were terminated. The criminal law
 
 Apple has expanded self-repair programmes and tightened parts pairing, but the public record does not show industry wide changes specifically aimed at insider risk in service facilities.
 
-**Could a forensic recorder on the customer device have detected this?**
+**Could a forensic recorder on the customer's device have detected this?**
 
 On a phone today, only partially. The relevant primitives (file open monitoring, network egress monitoring, login events) need kernel level access that consumer mobile operating systems still restrict for third parties. On a Windows laptop, the same class of activity would be fully recordable by a tool like Rashnova.
 

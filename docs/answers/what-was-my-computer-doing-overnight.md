@@ -22,7 +22,7 @@ A machine that wakes at three in the morning, runs for six minutes and goes back
 
 ## Where Rashnova fits
 
-Rashnova records continuously, including while you are asleep, so the question becomes answerable rather than speculative. Its weekly Readout reports which programs read which folders and how many times, which USB devices appeared, and how activity was distributed across each day of the week, with boot events shown alongside, so an overnight restart is visible in context. It reports what the log contains and nothing more: it will tell you that a program read a folder, not why. It is free, runs locally, and can be switched off if you would rather it did not run.
+Rashnova records continuously, including while you are asleep, so the question becomes answerable rather than speculative. Its Readout, covering the last 7 days, reports which programs read which folders and how many times, which USB devices appeared, and how activity was distributed across each day of the week, with boot events shown alongside, so an overnight restart is visible in context. It reports what the log contains and nothing more: it will tell you that a program read a folder, not why. It is free, runs locally, and can be switched off if you would rather it did not run.
 
 **Related:** [How do I see which apps are accessing my files on Windows?](./see-what-apps-access-my-files-windows.md) · [How can I tell if someone used my computer while I was away?](./tell-if-someone-used-my-computer.md) · [What free tools show what happened on my Windows PC?](./free-tools-see-what-happened-on-windows-pc.md)
 

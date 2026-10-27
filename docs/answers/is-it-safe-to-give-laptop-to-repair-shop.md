@@ -2,11 +2,11 @@
 
 *THE RISK, MEASURED · updated 2026-08-20*
 
-> **Short answer.** Usually, but not verifiably. Most technicians do their job and nothing else. The risk is documented rather than theoretical: a 2022 University of Guelph field study found technicians accessed customer data at six of sixteen shops tested with a simple battery replacement, and in 2021 Apple settled with a customer after contractors at a repair facility posted her private photographs. The real problem is not that abuse is common: it is that you cannot tell the difference afterwards. A shop that behaved perfectly and a shop that copied your files return an identical laptop. So the sensible approach is to reduce what is reachable, and to keep a record of the service window.
+> **Short answer.** Usually, but not verifiably. Most technicians do their job and nothing else. The risk is documented rather than theoretical: a 2022 University of Guelph field study found technicians looked through customer data in six of sixteen repairs of a simple audio fault, and in 2021 Apple settled with a customer after contractors at a repair facility posted her private photographs. The real problem is not that abuse is common: it is that you cannot tell the difference afterwards. A shop that behaved perfectly and a shop that copied your files return an identical laptop. So the sensible approach is to reduce what is reachable, and to keep a record of the service window.
 
 ## What the studies found
 
-The University of Guelph study is the most useful evidence available, because it was a field test rather than a survey. Researchers took devices with a trivial fault to sixteen service providers and examined what happened. Technicians at six shops accessed personal data that had nothing to do with the repair. In several cases they attempted to copy it.
+The University of Guelph study is the most useful evidence available, because it was a field test rather than a survey. Researchers took devices with a trivial fault to sixteen service providers and examined what happened. Technicians in six of the sixteen repairs looked through personal data that had nothing to do with the repair, two copied it to an external drive, and three of the six cleared Windows' recent files list afterwards.
 
 Other incidents are documented individually. Apple's 2021 settlement followed contractors posting a customer's private photos. Investigations by CNA in Singapore and reporting from Kerala and Kolkata have documented similar patterns. We keep the full sourced set on our case files page.
 

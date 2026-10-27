@@ -1,7 +1,7 @@
 # Can a Repair Shop Steal Your Data? It's Documented.
 
 **Yes — and not rarely.** In a 2022 University of Guelph field study, technicians at **6 of 16
-repair shops** snooped on customer data left for a simple battery fix — and 2 of the 16 copied
+repair shops** snooped on customer data on laptops left for a simple audio repair, and 2 of the 16 copied
 files off the device.
 
 And the repair counter is only shelf one. The same exposure exists inside companies — the
@@ -22,7 +22,7 @@ Yes — and it is documented, not hypothetical. In a 2022 University of Guelph f
 technicians at 6 of 16 electronics repair shops accessed customers' personal data without
 consent, and 2 of the 16 copied files off the device entirely. The violations were not
 sophisticated attacks: technicians opened photos, browsing history, and documents on machines
-left for a simple battery repair. Devices dropped off by women were snooped on more often, and
+left for a simple audio repair. Devices dropped off by women were snooped on more often, and
 the snooping specifically sought revealing photos and financial documents. Most shops had no
 privacy protocols at all — nothing stops a technician with your unlocked machine except their
 own restraint.

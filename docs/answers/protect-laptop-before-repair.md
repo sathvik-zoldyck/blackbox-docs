@@ -12,7 +12,7 @@ That matters because most repairs need the machine powered on and unlocked. A te
 
 ## What the research actually shows
 
-A 2022 University of Guelph field study took laptops to sixteen repair shops for a simple battery replacement. Technicians accessed personal data at six of them. In 2021, Apple settled with a customer after contractors at a repair facility posted her private photographs to social media.
+A 2022 University of Guelph field study left laptops with a simple audio fault at sixteen repair shops. Technicians looked through personal data in six of the repairs and copied it to an external drive in two. In 2021, Apple settled with a customer after contractors at a repair facility posted her private photographs to social media.
 
 The point is not that most technicians are dishonest, the overwhelming majority are not. The point is that a shop that behaved perfectly and a shop that copied your photos hand you back an identical laptop. Without a record, you cannot tell which one you used.
 

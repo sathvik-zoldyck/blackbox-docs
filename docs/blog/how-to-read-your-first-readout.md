@@ -6,7 +6,7 @@
 
 In aviation, when investigators recover a flight recorder, the process of extracting and interpreting what is on it is called the readout. Rashnova borrows the term because this is the part where you open the record and find out what it says.
 
-It arrives once a week, on a day you choose. It is designed to take about twenty seconds.
+It covers the last 7 days, and you open it whenever you like, with your PIN. It is designed to take about twenty seconds.
 
 ## 1. The verdict
 
@@ -58,9 +58,9 @@ If part of the week is missing: logs rotated out, capture stopped, the Readout s
 
 ## Questions
 
-**How often does the Readout arrive?**
+**How often is there a Readout?**
 
-Once a week, on a day you choose. The default is Sunday. A local notification tells you it is ready; the Readout itself lives in the app.
+Your Readout always covers the last 7 days, and you open it whenever you like, with your PIN. It needs always on recording; with sessions only there is no Readout.
 
 **Is the Readout emailed to me?**
 

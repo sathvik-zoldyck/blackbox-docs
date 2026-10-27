@@ -1,9 +1,12 @@
 # Field notes and investigations
 
-18 articles from the Alcyone Secure blog, newest first. Each one is grounded in real, cited incidents or written as a practical guide.
+21 articles from the Alcyone Secure blog, newest first. Each one is grounded in real, cited incidents or written as a practical guide.
 
 | Article | Type | Published |
 | --- | --- | --- |
+| [How to prove a file existed on a certain date, and why your computer's date is not enough](./how-to-prove-a-file-existed-on-a-date.md) | Guide | Oct 2026 |
+| [Where did this photo come from? What a photo can tell you, and what it cannot](./where-did-this-photo-come-from-metadata-content-credentials.md) | Guide | Oct 2026 |
+| [Four witnesses, never us: how a Rashnova proof is witnessed, without the jargon](./four-witnesses-how-a-rashnova-proof-is-witnessed.md) | Engineering | Oct 2026 |
 | [The software you installed is reading your Documents folder · and Windows will not tell you](./software-reading-your-documents-folder.md) | Investigation | Aug 2026 |
 | [How to read your first Readout](./how-to-read-your-first-readout.md) | Guide | Aug 2026 |
 | [Your AI assistant just read your Documents folder. Would you know?](./ai-agents-reading-your-files.md) | Security | Aug 2026 |
@@ -12,7 +15,7 @@
 | [Insider wrongdoing at Tesla: how two former employees walked out with 100 gigabytes of confidential data](./tesla-insider-data-exfiltration-100gb-2023.md) | Investigation | Apr 2026 |
 | [Phone and laptop repair shop privacy breaches: every documented incident from 2021 to 2025](./phone-laptop-repair-shop-privacy-breaches-real-incidents.md) | Investigation | Apr 2026 |
 | [Why every enterprise device handover should produce evidence: the case for forensic logging in IT service workflows](./enterprise-device-handover-forensic-logging.md) | Compliance | Apr 2026 |
-| [Apple paid 90 million dollars after iPhone repair technicians leaked a customer photos](./apple-pegatron-iphone-repair-90-million-settlement.md) | Investigation | Apr 2026 |
+| [Apple paid 90 million dollars after iPhone repair technicians leaked a customer's photos](./apple-pegatron-iphone-repair-90-million-settlement.md) | Investigation | Apr 2026 |
 | [The University of Guelph study: repair technicians snooped in 6 of 16 visits](./guelph-study-half-repair-stores-snoop-on-customers.md) | Investigation | Apr 2026 |
 | [The Kolkata phone repair shop video leak (September 2025): what happened, and why it keeps happening](./kolkata-phone-repair-shop-private-video-leak-2025.md) | Investigation | Apr 2026 |
 | [The Kerala phone repair photo leak (Trivandrum, 2025): what the case tells us about regional repair shop privacy](./kerala-trivandrum-phone-repair-photo-leak.md) | Investigation | Apr 2026 |

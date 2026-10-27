@@ -6,7 +6,7 @@
 
 ## What it records, and where it goes
 
-It records that things happened: a file opened, a program started, a USB drive plugged in and files copied to it, a sign in, a restart. The record stays on your PC. Nothing from it is uploaded; the app makes only two small requests, a daily check for a newer version and a time check during a Repair session, and neither carries anything from your record.
+It records that things happened: a file opened, a program started, a USB drive plugged in and files copied to it, a sign in, a restart. The record stays on your PC. Nothing from it is uploaded; the app makes only small requests that carry nothing from your record: a daily check for a newer version, a time check during a session, and, when you make a proof while online, a salted fingerprint of the file (never the file) to the public time witnesses.
 
 ## Why Windows warns you when you install it
 
@@ -18,7 +18,7 @@ It is not antivirus and does not replace it. It is not a tool for watching other
 
 ## Who makes it
 
-Alcyone Secure, a cybersecurity company founded in India in 2025 by Sathvik R. The product was called Black Box before it was renamed Rashnova in 2026. Its known limits, including what it cannot do yet, are published in full on the company's website.
+Alcyone Secure, a cybersecurity company founded in India in 2025 by Sathvik R. The product was called Black Box before it was renamed Rashnova in 2026. What it cannot do is stated plainly on the company's website, in its FAQ and on each answer page.
 
 ## Where Rashnova fits
 
